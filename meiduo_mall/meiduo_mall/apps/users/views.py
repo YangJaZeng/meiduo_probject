@@ -10,7 +10,7 @@ from django import http
 from django.shortcuts import render, redirect
 from django.urls import reverse
 from django.views import View
-
+from django_redis import get_redis_connection
 
 from meiduo_mall.utils.response_code import RETCODE
 
@@ -57,7 +57,7 @@ class RegisterView(View):
         password = request.POST.get('password')
         password2 = request.POST.get("password2")
         mobile = request.POST.grt('mobile')
-        # TODO sms_code 还没有做
+        sms_code_client = request.POST.get('sms_code')
         allow = request.POST.get('allow')
 
         # 校验参数
@@ -79,6 +79,16 @@ class RegisterView(View):
         # 判断是否勾选用户协议
         if allow != 'on':
             return http.HttpResponseForbidden('请勾选用户协议')
+
+        # 对短信验证码进行校验
+        redis_conn = get_redis_connection('verify_code')
+        # redis取出的：
+        sms_code_server = redis_conn.get('sms_code_%s' % mobile)
+        if sms_code_server is None:
+            return render(request, 'register.html', {'sms_code_errmsg':'验证码实效'})
+        # 对比前后端的验证码：
+        if sms_code_client != sms_code_server.decode():
+            return render(request, 'register.html', {'sms_code_errmsg':'输入验证码错误'})
 
         # 保存注册数据
         try:

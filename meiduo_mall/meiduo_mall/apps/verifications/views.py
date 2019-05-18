@@ -2,13 +2,13 @@ from django import http
 from django.views import View
 import random
 from meiduo_mall.libs.captcha.captcha import captcha
-from meiduo_mall.libs.yuntongxun.ccp_sms import CCP
 from meiduo_mall.utils.response_code import RETCODE
 from verifications import const
 from venv import logger
 from django_redis import get_redis_connection
 # 导入日志
 import logging
+
 # 日志器
 logging = logging.getLogger('django')
 
@@ -23,6 +23,14 @@ class SMSCodeView(View):
         :param mobile: 手机号码
         :return: JSON
         """
+        # 3.创建连接到redis的对象
+        redis_conn = get_redis_connection('verify_code')
+
+        send_flag = redis_conn.get('send_flag_%s' % mobile)
+
+        if send_flag:
+            return http.JsonResponse({'code': RETCODE.THROTTLINGERR,
+                                      'errmsg': '发送短信验证码过快'})
         # 1.接收参数
         image_code_client = request.GET.get('image_code')
         uuid = request.GET.get('image_code_id')
@@ -31,9 +39,6 @@ class SMSCodeView(View):
         if not all([image_code_client, uuid]):
             return http.JsonResponse({'code': RETCODE.NECESSARYPARAMERR,
                                       'errmsg': '缺少必传参数'})
-
-        # 3.创建连接到redis的对象
-        redis_conn = get_redis_connection('verify_code')
 
         # 4.提取图形验证码
         image_code_server = redis_conn.get('img_%s' % uuid)
@@ -61,17 +66,23 @@ class SMSCodeView(View):
         # 8.保存短信验证码,保存到redis中
         # 短信验证码有效期， 单位：秒
         # SMS_CODE_REDIS_EXPIRES = 300
-        redis_conn.setex('sms_code_%' % mobile, const.IMAGE_COOE_REDIS_EXPIRES, sms_code)
-
+        # 创建管道
+        pl = redis_conn.pipeline()
+        # 保存到redis中
+        pl.setex('sms_code_%s' % mobile, const.SEND_SMS_TEPLATE_ID, sms_code)
+        pl.setex('send_flag_%s' % mobile, 60, 1)
+        # 执行管道
+        pl.execute()
         # 9.发送短信验证码
         # 短信模板
         # SMS_CODE_REDIS_EXPIRES // 60 = 5min
         # SEND_SMS_TEMPLATE_ID = 1
-        CCP().send_template_sms(mobile, [sms_code, 5], 1)
+        # CCP().send_template_sms(mobile, [sms_code, 5], 1)
 
         # 10.响应结果
         return http.JsonResponse({'code': RETCODE.OK,
                                   'errmsg': '发送短信成功'})
+
 
 # 图形验证码
 

@@ -820,3 +820,218 @@ WARNING 2019-05-18 06:37:50,730 basehttp 124 "GET /static/js/axios.min.map HTTP/
 INFO 2019-05-18 06:37:50,900 basehttp 124 "GET /image_codes/b45298bf-cf79-4ba1-89bf-e4743ab84654/ HTTP/1.1" 200 3349
 INFO 2019-05-18 06:38:05,172 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
 INFO 2019-05-18 06:39:05,807 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 06:44:05,009 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 06:44:05,104 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 06:44:05,106 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 06:44:05,113 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:44:05,118 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:44:05,130 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 06:44:05,131 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:44:05,138 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:44:05,147 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2019-05-18 06:44:05,692 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 06:44:05,950 basehttp 124 "GET /image_codes/6ef419b4-629a-4234-a6f3-fc21f21409ac/ HTTP/1.1" 200 3220
+INFO 2019-05-18 06:44:15,645 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 06:44:17,799 basehttp 124 "GET /image_codes/2238eddc-dfc2-4b47-a3db-c49f60286a92/ HTTP/1.1" 200 3311
+INFO 2019-05-18 06:44:50,835 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 06:47:37,156 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+ERROR 2019-05-18 06:48:53,053 exception 135 Internal Server Error: /sms_codes/18079308731/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 64, in get
+    redis_conn.setex('sms_code_%' % mobile, const.IMAGE_COOE_REDIS_EXPIRES, sms_code)
+ValueError: incomplete format
+ERROR 2019-05-18 06:48:55,081 basehttp 124 "GET /sms_codes/18079308731/?image_code=j8ce&image_code_id=2238eddc-dfc2-4b47-a3db-c49f60286a92 HTTP/1.1" 500 87568
+INFO 2019-05-18 06:55:27,397 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 06:55:27,499 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 06:55:27,500 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 06:55:27,513 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:55:27,529 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:55:27,536 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:55:27,540 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 06:55:27,548 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:55:27,553 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2019-05-18 06:55:27,995 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 06:55:28,193 basehttp 124 "GET /image_codes/a109646c-f808-461c-b222-68e99b3fcccd/ HTTP/1.1" 200 3716
+INFO 2019-05-18 06:55:36,230 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 06:56:22,825 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 06:56:22,883 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:22,887 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:22,910 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:22,920 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:22,924 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:22,930 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:22,938 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:22,941 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2019-05-18 06:56:23,355 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 06:56:23,476 basehttp 124 "GET /image_codes/761eee87-514b-4edf-81ee-d91bf5891031/ HTTP/1.1" 200 3330
+INFO 2019-05-18 06:56:39,755 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 06:56:39,779 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:39,795 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:39,797 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:39,803 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:39,822 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:39,841 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:39,856 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 06:56:39,864 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2019-05-18 06:56:40,000 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 06:56:40,067 basehttp 124 "GET /image_codes/c1266964-9d19-4fb8-9fbf-ac559f1960da/ HTTP/1.1" 200 3261
+INFO 2019-05-18 06:56:45,880 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 06:56:48,647 basehttp 124 "GET /image_codes/61ac527b-ce08-41d5-b2b3-19a1a54ab497/ HTTP/1.1" 200 3352
+INFO 2019-05-18 06:56:57,144 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+ERROR 2019-05-18 06:57:22,283 exception 135 Internal Server Error: /sms_codes/18079308731/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 64, in get
+    redis_conn.setex('sms_code_%' % mobile, const.IMAGE_COOE_REDIS_EXPIRES, sms_code)
+ValueError: incomplete format
+ERROR 2019-05-18 06:57:24,459 basehttp 124 "GET /sms_codes/18079308731/?image_code=cmnk&image_code_id=61ac527b-ce08-41d5-b2b3-19a1a54ab497 HTTP/1.1" 500 87568
+INFO 2019-05-18 07:03:05,568 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 07:03:12,641 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 07:03:12,676 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:03:12,678 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:03:12,677 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:03:12,680 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:03:12,681 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:03:12,702 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 07:03:12,713 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:03:12,718 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:03:12,864 basehttp 124 "GET /image_codes/c32a9e10-2421-47fe-bb6b-3f7f53c174d9/ HTTP/1.1" 200 3237
+INFO 2019-05-18 07:09:05,519 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 07:09:05,654 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:09:05,672 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:09:05,677 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:09:05,679 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:09:05,687 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:09:05,717 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 07:09:05,766 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:09:05,778 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:09:05,964 basehttp 124 "GET /image_codes/4a6bb641-611d-488e-82ab-616fdb4c7e62/ HTTP/1.1" 200 3083
+INFO 2019-05-18 07:09:11,140 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 07:09:17,155 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+ERROR 2019-05-18 07:09:30,818 exception 135 Internal Server Error: /sms_codes/18079308731/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 64, in get
+    redis_conn.setex('sms_code_%' % mobile, const.IMAGE_COOE_REDIS_EXPIRES, sms_code)
+ValueError: incomplete format
+ERROR 2019-05-18 07:09:33,023 basehttp 124 "GET /sms_codes/18079308731/?image_code=mmfn&image_code_id=4a6bb641-611d-488e-82ab-616fdb4c7e62 HTTP/1.1" 500 87568
+INFO 2019-05-18 07:10:59,263 basehttp 124 "GET /image_codes/ebf2bde4-1951-45f7-8a80-6045a6fa7076/ HTTP/1.1" 200 3509
+INFO 2019-05-18 07:11:06,874 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+ERROR 2019-05-18 07:11:27,426 exception 135 Internal Server Error: /sms_codes/18079308731/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 64, in get
+    redis_conn.setex('sms_code_%' % mobile, 300, sms_code)
+ValueError: incomplete format
+ERROR 2019-05-18 07:11:29,335 basehttp 124 "GET /sms_codes/18079308731/?image_code=tj7a&image_code_id=ebf2bde4-1951-45f7-8a80-6045a6fa7076 HTTP/1.1" 500 87514
+INFO 2019-05-18 07:13:54,580 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 07:13:54,614 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:13:54,632 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:13:54,634 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:13:54,635 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:13:54,637 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:13:54,646 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 07:13:54,658 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:13:54,662 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:13:54,772 basehttp 124 "GET /image_codes/001d0123-3f26-4c46-aa55-d9424a0c6a3b/ HTTP/1.1" 200 3152
+INFO 2019-05-18 07:13:56,851 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 07:14:01,457 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 07:15:28,844 basehttp 124 "GET /sms_codes/18079308731/?image_code=vhjn&image_code_id=001d0123-3f26-4c46-aa55-d9424a0c6a3b HTTP/1.1" 200 63
+INFO 2019-05-18 07:17:58,985 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 07:18:03,832 basehttp 124 "GET /sms_codes/18079308731/?image_code=vhjn&image_code_id=001d0123-3f26-4c46-aa55-d9424a0c6a3b HTTP/1.1" 200 72
+INFO 2019-05-18 07:18:03,872 basehttp 124 "GET /image_codes/f747b36d-45d9-4661-a82d-fca0d01a8bed/ HTTP/1.1" 200 3294
+INFO 2019-05-18 07:18:28,370 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+ERROR 2019-05-18 07:18:39,936 exception 135 Internal Server Error: /sms_codes/18079308731/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 64, in get
+    redis_conn.setex('sms_code_%' % mobile, 300, sms_code)
+ValueError: incomplete format
+ERROR 2019-05-18 07:18:42,308 basehttp 124 "GET /sms_codes/18079308731/?image_code=yvrl&image_code_id=f747b36d-45d9-4661-a82d-fca0d01a8bed HTTP/1.1" 500 87516
+INFO 2019-05-18 07:23:17,470 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 07:23:17,518 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:23:17,523 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:23:17,524 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:23:17,526 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:23:17,532 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:23:17,544 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 07:23:17,552 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:23:17,556 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:23:17,808 basehttp 124 "GET /image_codes/70a7956d-9039-4ab5-bdc4-db124994c477/ HTTP/1.1" 200 3248
+INFO 2019-05-18 07:23:21,351 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 07:23:26,374 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+ERROR 2019-05-18 07:23:36,058 exception 135 Internal Server Error: /sms_codes/18079308731/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 64, in get
+    redis_conn.setex('sms_code_%' % mobile, 300, sms_code)
+ValueError: incomplete format
+ERROR 2019-05-18 07:23:38,599 basehttp 124 "GET /sms_codes/18079308731/?image_code=4bvs&image_code_id=70a7956d-9039-4ab5-bdc4-db124994c477 HTTP/1.1" 500 87515
+INFO 2019-05-18 07:56:06,270 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 07:56:06,328 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:56:06,338 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:56:06,340 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 07:56:06,352 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:56:06,353 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:56:06,370 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 07:56:06,391 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:56:06,399 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 07:56:06,778 basehttp 124 "GET /image_codes/a8d3d6f9-47d3-4099-8c28-6cb12b86229e/ HTTP/1.1" 200 3129
+INFO 2019-05-18 07:56:09,419 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 07:56:16,025 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 07:56:32,539 basehttp 124 "GET /sms_codes/18079308731/?image_code=9rbk&image_code_id=a8d3d6f9-47d3-4099-8c28-6cb12b86229e HTTP/1.1" 200 63
