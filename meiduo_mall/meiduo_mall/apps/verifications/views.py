@@ -1,6 +1,4 @@
-import redis
 from django import http
-from django.shortcuts import render
 from django.views import View
 from django_redis import get_redis_connection
 
