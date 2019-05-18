@@ -6,6 +6,7 @@ from meiduo_mall.utils.response_code import RETCODE
 from verifications import const
 from venv import logger
 from django_redis import get_redis_connection
+from libs.yuntongxun.ccp_sms import CCP
 # 导入日志
 import logging
 
@@ -62,6 +63,7 @@ class SMSCodeView(View):
         # 7. 生成短信验证码：生成6位数验证码
         sms_code = '%06d' % random.randint(0, 999999)
         logger.info(sms_code)
+        print(sms_code)
 
         # 8.保存短信验证码,保存到redis中
         # 短信验证码有效期， 单位：秒
@@ -80,7 +82,6 @@ class SMSCodeView(View):
         # CCP().send_template_sms(mobile, [sms_code, 5], 1)
         # 导入异步的包
         from celery_tasks.sms.tasks import send_sms_code
-        # 使用send_sms_code.delay(参数)
         send_sms_code.delay(mobile, sms_code)
 
         # 10.响应结果

@@ -1086,3 +1086,382 @@ INFO 2019-05-18 08:45:38,373 basehttp 124 "GET /sms_codes/18079308731/?image_cod
 INFO 2019-05-18 08:50:11,063 basehttp 124 "GET /image_codes/fffcf328-cc5c-413d-acde-b082c5aa2b00/ HTTP/1.1" 200 3488
 INFO 2019-05-18 08:50:16,991 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
 INFO 2019-05-18 08:50:41,485 basehttp 124 "GET /sms_codes/18079308731/?image_code=qega&image_code_id=fffcf328-cc5c-413d-acde-b082c5aa2b00 HTTP/1.1" 200 63
+INFO 2019-05-18 08:55:12,729 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 08:55:12,926 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 08:55:12,928 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:55:12,930 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:55:12,934 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 08:55:12,936 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:55:12,945 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 08:55:12,948 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:55:12,952 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:55:13,318 basehttp 124 "GET /image_codes/39c2cb8b-31c1-43f6-a01f-0ee36545ba78/ HTTP/1.1" 200 2932
+INFO 2019-05-18 08:55:16,628 basehttp 124 "GET /mobiles/18089308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 08:55:17,667 basehttp 124 "GET /image_codes/bea77814-e940-415e-b87a-fc0c13a1d2e3/ HTTP/1.1" 200 3392
+INFO 2019-05-18 08:55:23,550 basehttp 124 "GET /mobiles/18089308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 08:58:28,804 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 08:58:28,845 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:58:28,853 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 08:58:28,855 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 08:58:28,852 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:58:28,858 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:58:28,862 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 08:58:28,866 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:58:28,869 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:58:29,033 basehttp 124 "GET /image_codes/7d1d9034-b0c4-4f62-97d4-51c597e05a1e/ HTTP/1.1" 200 2893
+WARNING 2019-05-18 08:58:32,784 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 08:59:56,553 basehttp 124 "GET /mobiles/18089308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:00:05,508 basehttp 124 "GET /mobiles/18089308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:00:51,093 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:00:56,108 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:00:56,190 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:00:56,196 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:00:56,202 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:00:56,213 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:00:56,279 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 09:00:56,308 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:00:56,338 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:00:56,395 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2019-05-18 09:00:56,677 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:01:10,751 basehttp 124 "GET /image_codes/e94bd86d-2687-4a3c-9071-54f23efca0e7/ HTTP/1.1" 200 3431
+INFO 2019-05-18 09:01:10,765 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+WARNING 2019-05-18 09:01:11,317 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:01:13,197 basehttp 124 "GET /image_codes/69c6950c-1446-4d64-9ab4-857c97a32ff9/ HTTP/1.1" 200 2754
+INFO 2019-05-18 09:01:22,940 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:01:22,971 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:01:22,974 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:01:22,974 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:01:22,977 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:01:22,982 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:01:22,990 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 09:01:23,001 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:01:23,012 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:01:23,236 basehttp 124 "GET /image_codes/a7092add-a55c-469c-91ae-4f61493e257f/ HTTP/1.1" 200 3284
+WARNING 2019-05-18 09:01:29,684 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:01:50,859 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:01:59,192 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:02:31,916 basehttp 124 "GET /sms_codes/18079308731/?image_code=ufal&image_code_id=a7092add-a55c-469c-91ae-4f61493e257f HTTP/1.1" 200 63
+INFO 2019-05-18 09:03:30,117 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:03:30,222 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:03:30,249 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:03:30,254 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:03:30,264 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:03:30,275 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:03:30,283 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 09:03:30,290 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:03:30,305 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2019-05-18 09:03:30,550 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:03:56,817 basehttp 124 "GET / HTTP/1.1" 200 25122
+WARNING 2019-05-18 09:03:57,452 base 152 Not Found: /carts/simple/
+WARNING 2019-05-18 09:03:57,460 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3077
+WARNING 2019-05-18 09:03:57,525 base 152 Not Found: /favicon.ico
+WARNING 2019-05-18 09:03:57,549 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3071
+WARNING 2019-05-18 09:03:59,162 base 152 Not Found: /register.html
+WARNING 2019-05-18 09:03:59,163 basehttp 124 "GET /register.html HTTP/1.1" 404 3077
+INFO 2019-05-18 09:04:02,195 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:04:02,859 basehttp 124 "GET /image_codes/f9229ca1-3429-4930-a24f-d59dc8f4a5fb/ HTTP/1.1" 200 3328
+WARNING 2019-05-18 09:04:06,499 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:04:26,151 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:04:26,212 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:04:26,217 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:04:26,228 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:04:26,244 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:04:26,310 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 09:04:26,317 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:04:26,322 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:04:26,338 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2019-05-18 09:04:26,631 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:04:29,001 basehttp 124 "GET /image_codes/34f0c0e6-fa65-4c50-baf3-d1e734d2ce7d/ HTTP/1.1" 200 3030
+INFO 2019-05-18 09:04:33,882 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:04:42,959 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:08:15,580 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:08:15,610 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:08:15,615 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:08:15,635 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:08:15,644 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:08:15,658 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:08:15,666 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:08:15,668 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 09:08:15,669 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:08:15,868 basehttp 124 "GET /image_codes/f6f2f7e6-18ee-4e15-8a99-8d17fb4f0431/ HTTP/1.1" 200 2955
+INFO 2019-05-18 09:12:08,346 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:12:11,616 basehttp 124 "GET /image_codes/ad515f22-7f93-487c-ab1e-9f580e73f179/ HTTP/1.1" 200 3205
+INFO 2019-05-18 09:12:18,421 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:13:42,980 basehttp 124 "GET /sms_codes/18079308731/?image_code=6i5v&image_code_id=ad515f22-7f93-487c-ab1e-9f580e73f179 HTTP/1.1" 200 63
+INFO 2019-05-18 09:14:04,778 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:14:04,805 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:04,807 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:04,821 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:04,828 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:04,829 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:04,832 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:04,844 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:04,849 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:05,062 basehttp 124 "GET /image_codes/63389c7a-c313-423c-b7e7-6a506d36f410/ HTTP/1.1" 200 3034
+INFO 2019-05-18 09:14:26,560 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:14:26,601 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:26,611 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:26,613 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:26,624 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:26,626 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:26,636 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:26,640 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:26,644 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:14:26,823 basehttp 124 "GET /image_codes/148120c8-4409-4215-8fe9-65b76437cb6c/ HTTP/1.1" 200 3179
+INFO 2019-05-18 09:14:31,117 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:14:35,693 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:16:04,070 basehttp 124 "GET /sms_codes/18079308731/?image_code=djkg&image_code_id=148120c8-4409-4215-8fe9-65b76437cb6c HTTP/1.1" 200 63
+WARNING 2019-05-18 09:16:31,633 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:21:13,256 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:21:13,373 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:21:13,376 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:21:13,414 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:21:13,389 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:21:13,431 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:21:13,435 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 09:21:13,460 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:21:13,480 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2019-05-18 09:21:13,710 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:21:15,238 basehttp 124 "GET /image_codes/7917ebdb-d030-4bbb-b896-e4390420d09e/ HTTP/1.1" 200 3615
+INFO 2019-05-18 09:21:18,671 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:21:26,738 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+ERROR 2019-05-18 09:21:32,196 exception 135 Internal Server Error: /sms_codes/18079308731/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 80, in get
+    CCP().send_template_sms(mobile, [sms_code, 5], 1)
+NameError: name 'CCP' is not defined
+ERROR 2019-05-18 09:21:34,376 basehttp 124 "GET /sms_codes/18079308731/?image_code=8hae&image_code_id=7917ebdb-d030-4bbb-b896-e4390420d09e HTTP/1.1" 500 88070
+INFO 2019-05-18 09:25:45,221 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:25:45,276 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:25:45,288 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 09:25:45,303 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:25:45,350 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:25:45,372 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:25:45,378 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 09:25:45,401 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 09:25:45,419 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2019-05-18 09:25:45,708 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:25:46,985 basehttp 124 "GET /image_codes/85e2c349-4f4b-44be-befa-87b977c5fd5f/ HTTP/1.1" 200 3147
+INFO 2019-05-18 09:25:52,579 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:25:59,690 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:26:26,023 basehttp 124 "GET /sms_codes/18079308731/?image_code=r6my&image_code_id=85e2c349-4f4b-44be-befa-87b977c5fd5f HTTP/1.1" 200 63
+WARNING 2019-05-18 09:28:27,290 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:28:44,951 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 09:28:44,989 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-05-18 09:28:45,032 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-05-18 09:28:45,034 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-05-18 09:28:45,036 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 75
+INFO 2019-05-18 09:28:45,046 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-05-18 09:28:45,069 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-05-18 09:28:45,084 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-05-18 09:28:45,097 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 15584
+INFO 2019-05-18 09:28:45,240 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-05-18 09:28:45,277 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-05-18 09:28:45,286 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-05-18 09:28:45,423 basehttp 124 "GET /image_codes/5290b769-b296-4e88-be2a-e7995114a1d7/ HTTP/1.1" 200 2732
+WARNING 2019-05-18 09:28:48,935 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 09:28:53,499 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:29:06,948 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 09:29:38,125 basehttp 124 "GET /sms_codes/18079308731/?image_code=6cov&image_code_id=5290b769-b296-4e88-be2a-e7995114a1d7 HTTP/1.1" 200 63
+INFO 2019-05-18 10:45:42,147 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:45:45,259 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:46:02,975 basehttp 124 "GET /image_codes/3f910971-9fb1-49c2-bccd-1d6f09eb0e1c/ HTTP/1.1" 200 2900
+INFO 2019-05-18 10:46:26,449 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:46:29,925 basehttp 124 "GET /sms_codes/18079308731/?image_code=t4pj&image_code_id=3f910971-9fb1-49c2-bccd-1d6f09eb0e1c HTTP/1.1" 200 63
+INFO 2019-05-18 10:47:16,112 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 10:47:16,149 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:47:16,158 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:47:16,159 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 10:47:16,160 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:47:16,161 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 10:47:16,175 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 10:47:16,180 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:47:16,193 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:47:16,401 basehttp 124 "GET /image_codes/456f68b1-d30f-4356-bc31-e75347fee716/ HTTP/1.1" 200 2617
+INFO 2019-05-18 10:47:19,415 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:47:30,833 basehttp 124 "GET /mobiles/18079309731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:47:36,347 basehttp 124 "GET /mobiles/18079309731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:47:39,070 basehttp 124 "GET /sms_codes/18079309731/?image_code=l6mc&image_code_id=456f68b1-d30f-4356-bc31-e75347fee716 HTTP/1.1" 200 63
+INFO 2019-05-18 10:48:31,347 basehttp 124 "GET /image_codes/703adeb1-4fba-40b9-a53d-a7768bcd77bd/ HTTP/1.1" 200 3003
+INFO 2019-05-18 10:48:39,798 basehttp 124 "GET /mobiles/18079309731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:49:08,852 basehttp 124 "GET /sms_codes/18079309731/?image_code=odga&image_code_id=703adeb1-4fba-40b9-a53d-a7768bcd77bd HTTP/1.1" 200 63
+ERROR 2019-05-18 10:49:12,593 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/users/views.py", line 59, in post
+    mobile = request.POST.grt('mobile')
+AttributeError: 'QueryDict' object has no attribute 'grt'
+INFO 2019-05-18 10:49:12,684 basehttp 124 "GET /mobiles/18079309731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:49:12,686 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 41
+ERROR 2019-05-18 10:49:12,982 basehttp 124 "POST /register/ HTTP/1.1" 500 87431
+INFO 2019-05-18 10:51:00,948 basehttp 124 "POST /register/ HTTP/1.1" 200 5406
+INFO 2019-05-18 10:51:00,981 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:51:00,984 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:51:00,986 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:51:00,989 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 10:51:00,992 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 10:51:00,996 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 10:51:01,002 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:51:01,005 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 10:51:01,171 basehttp 124 "GET /image_codes/c1ea3327-8e30-4ad5-a2c2-f6803ea8e16d/ HTTP/1.1" 200 2942
+WARNING 2019-05-18 10:51:40,608 csrf 160 Forbidden (CSRF cookie not set.): /register/
+WARNING 2019-05-18 10:51:40,644 basehttp 124 "POST /register/ HTTP/1.1" 403 2857
+WARNING 2019-05-18 10:51:54,575 csrf 160 Forbidden (CSRF cookie not set.): /register/
+WARNING 2019-05-18 10:51:54,580 basehttp 124 "POST /register/ HTTP/1.1" 403 2857
+INFO 2019-05-18 10:51:57,736 basehttp 124 "GET /register HTTP/1.1" 301 0
+INFO 2019-05-18 10:51:59,269 basehttp 124 "GET / HTTP/1.1" 200 25122
+INFO 2019-05-18 10:51:59,310 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-05-18 10:51:59,325 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-05-18 10:51:59,332 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 75
+INFO 2019-05-18 10:51:59,339 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-05-18 10:51:59,344 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-05-18 10:51:59,353 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-05-18 10:51:59,353 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-05-18 10:51:59,359 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-05-18 10:51:59,361 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1727
+INFO 2019-05-18 10:51:59,394 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-05-18 10:51:59,407 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-05-18 10:51:59,418 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-05-18 10:51:59,431 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-05-18 10:51:59,452 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-05-18 10:51:59,470 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-05-18 10:51:59,496 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-05-18 10:51:59,500 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-05-18 10:51:59,503 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2019-05-18 10:51:59,504 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-05-18 10:51:59,511 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-05-18 10:51:59,522 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-05-18 10:51:59,523 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-05-18 10:51:59,542 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-05-18 10:51:59,543 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-05-18 10:51:59,547 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-05-18 10:51:59,725 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-05-18 10:51:59,731 base 152 Not Found: /carts/simple/
+WARNING 2019-05-18 10:51:59,733 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3077
+WARNING 2019-05-18 10:52:03,477 base 152 Not Found: /register.html
+WARNING 2019-05-18 10:52:03,478 basehttp 124 "GET /register.html HTTP/1.1" 404 3077
+INFO 2019-05-18 10:52:06,461 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 10:52:06,480 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 15584
+INFO 2019-05-18 10:52:06,594 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-05-18 10:52:06,598 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-05-18 10:52:06,601 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-05-18 10:52:06,615 basehttp 124 "GET /image_codes/09821281-5d46-4dc5-b8b7-ba275395560c/ HTTP/1.1" 200 3478
+INFO 2019-05-18 10:52:10,045 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:52:24,142 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:52:29,163 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:52:43,561 basehttp 124 "GET /usernames/python/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:52:43,580 basehttp 124 "POST /register/ HTTP/1.1" 200 5406
+INFO 2019-05-18 10:52:43,582 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:52:43,819 basehttp 124 "GET /image_codes/4c5eb68d-df62-494c-a5e0-6520239a736f/ HTTP/1.1" 200 3618
+INFO 2019-05-18 10:56:58,097 basehttp 124 "GET /usernames/laowang/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:57:11,863 basehttp 124 "GET /mobiles/18079309731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:57:17,821 basehttp 124 "GET /sms_codes/18079309731/?image_code=mqyv&image_code_id=4c5eb68d-df62-494c-a5e0-6520239a736f HTTP/1.1" 200 63
+INFO 2019-05-18 10:57:17,830 basehttp 124 "GET /mobiles/18079309731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:58:11,281 basehttp 124 "GET /image_codes/730f32ab-9e35-453c-9f83-58bb62734cae/ HTTP/1.1" 200 2838
+INFO 2019-05-18 10:58:18,660 basehttp 124 "GET /sms_codes/18079309731/?image_code=atvm&image_code_id=730f32ab-9e35-453c-9f83-58bb62734cae HTTP/1.1" 200 63
+INFO 2019-05-18 10:58:18,672 basehttp 124 "GET /mobiles/18079309731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:58:30,545 basehttp 124 "POST /register/ HTTP/1.1" 200 5406
+INFO 2019-05-18 10:58:30,553 basehttp 124 "GET /mobiles/18079309731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:58:30,563 basehttp 124 "GET /usernames/laowang/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:58:30,752 basehttp 124 "GET /image_codes/26202d4a-b773-4d9f-94ab-1b1c88fff612/ HTTP/1.1" 200 3623
+INFO 2019-05-18 10:59:31,833 basehttp 124 "GET /usernames/laowang/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:59:41,669 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:59:46,202 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 10:59:54,401 basehttp 124 "GET /sms_codes/18079308731/?image_code=mjht&image_code_id=26202d4a-b773-4d9f-94ab-1b1c88fff612 HTTP/1.1" 200 63
+INFO 2019-05-18 11:00:04,130 basehttp 124 "GET /usernames/laowang/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 11:00:04,138 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 11:00:04,150 basehttp 124 "POST /register/ HTTP/1.1" 200 5406
+INFO 2019-05-18 11:00:04,338 basehttp 124 "GET /image_codes/cf071e0d-79f1-456d-91f1-df2d0a73e6e9/ HTTP/1.1" 200 3468
+WARNING 2019-05-18 11:00:38,235 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 11:01:30,405 basehttp 124 "GET /usernames/laowang/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 11:01:39,344 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 11:01:45,562 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 11:01:48,271 basehttp 124 "GET /sms_codes/18079308731/?image_code=ckxw&image_code_id=cf071e0d-79f1-456d-91f1-df2d0a73e6e9 HTTP/1.1" 200 63
+INFO 2019-05-18 11:02:31,105 basehttp 124 "GET /usernames/laowang/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 11:02:31,112 basehttp 124 "POST /register/ HTTP/1.1" 200 5406
+INFO 2019-05-18 11:02:31,154 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+WARNING 2019-05-18 11:02:31,506 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-18 11:02:38,002 basehttp 124 "GET /image_codes/092e09fc-5c64-4691-b556-69060ca0e341/ HTTP/1.1" 200 2978
+INFO 2019-05-18 11:02:43,982 basehttp 124 "GET /static/login.html HTTP/1.1" 200 2641
+INFO 2019-05-18 11:02:44,017 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 5212
+INFO 2019-05-18 11:02:44,029 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-05-18 11:02:44,050 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-05-18 11:02:44,053 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-05-18 11:02:48,283 basehttp 124 "POST /static/login.html HTTP/1.1" 200 2641
+INFO 2019-05-18 11:02:49,793 basehttp 124 "POST /static/login.html HTTP/1.1" 200 2641
+INFO 2019-05-18 11:02:50,824 basehttp 124 "POST /static/login.html HTTP/1.1" 200 2641
+INFO 2019-05-18 11:03:01,638 basehttp 124 "POST /static/login.html HTTP/1.1" 200 2641
+INFO 2019-05-18 11:03:03,541 basehttp 124 "POST /static/login.html HTTP/1.1" 200 2641
+INFO 2019-05-18 11:03:07,509 basehttp 124 "POST /static/login.html HTTP/1.1" 304 0
+INFO 2019-05-18 11:03:07,535 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:03:07,549 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:03:07,549 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:03:07,557 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:03:07,575 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-18 11:03:07,576 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:03:07,577 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:03:07,588 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:03:12,896 basehttp 124 "GET /static/login.html HTTP/1.1" 200 2641
+INFO 2019-05-18 11:03:13,186 basehttp 124 "GET /image_codes/ad05fc9e-0448-4b79-8a3d-eeead9d9f63f/ HTTP/1.1" 200 2718
+INFO 2019-05-18 11:03:13,306 basehttp 124 "GET /image_codes/b2249a9c-6340-4378-b02c-a90734d7f764/ HTTP/1.1" 200 3240
+INFO 2019-05-18 11:03:13,446 basehttp 124 "GET /image_codes/ec4b3602-0d40-4b27-afa2-7c956dc19808/ HTTP/1.1" 200 3352
+INFO 2019-05-18 11:03:13,604 basehttp 124 "GET /image_codes/41e1751a-ef55-429c-912b-7f0f6aabfe88/ HTTP/1.1" 200 3326
+INFO 2019-05-18 11:18:22,864 basehttp 124 "POST /register/ HTTP/1.1" 200 5406
+INFO 2019-05-18 11:18:22,956 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:22,980 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:23,001 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:23,028 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:23,031 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:23,034 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:23,039 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:23,049 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:23,236 basehttp 124 "GET /image_codes/9e5d0c7d-387b-41fa-8f95-b89573a7ab13/ HTTP/1.1" 200 2768
+INFO 2019-05-18 11:18:52,662 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 11:18:52,689 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:52,697 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:52,700 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:52,704 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:52,711 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:52,721 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:52,722 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:52,749 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:52,908 basehttp 124 "GET /image_codes/d36dda23-3ef7-41bb-bb7e-da4afca92f9f/ HTTP/1.1" 200 3194
+INFO 2019-05-18 11:18:54,314 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 11:18:54,335 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:54,342 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:54,343 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:54,346 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:54,354 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:54,359 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:54,361 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:54,365 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:54,640 basehttp 124 "GET /image_codes/2b84464b-0746-46c3-be91-5c0bd4698cca/ HTTP/1.1" 200 3202
+INFO 2019-05-18 11:18:56,427 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 11:18:56,452 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:56,454 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:56,461 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:56,466 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:56,474 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:56,483 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:56,491 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:56,505 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 11:18:56,614 basehttp 124 "GET /image_codes/b2d45048-4b19-4636-9637-997e534b3cae/ HTTP/1.1" 200 3243

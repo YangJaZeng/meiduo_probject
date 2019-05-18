@@ -4,9 +4,9 @@
 # max_retries：异常自动重试次数的上限
 from venv import logger
 
+from celery_tasks.main import celery_app
 from celery_tasks.yuntongxun.ccp_sms import CCP
 from verifications import const
-from celery_tasks.main import celery_app
 
 
 @celery_app.task(bind = True, name='send_sms_code', retry_backoff=3)

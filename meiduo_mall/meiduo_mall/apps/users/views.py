@@ -56,7 +56,7 @@ class RegisterView(View):
         username = request.POST.get('username')
         password = request.POST.get('password')
         password2 = request.POST.get("password2")
-        mobile = request.POST.grt('mobile')
+        mobile = request.POST.get('mobile')
         sms_code_client = request.POST.get('sms_code')
         allow = request.POST.get('allow')
 
