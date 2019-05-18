@@ -78,6 +78,10 @@ class SMSCodeView(View):
         # SMS_CODE_REDIS_EXPIRES // 60 = 5min
         # SEND_SMS_TEMPLATE_ID = 1
         # CCP().send_template_sms(mobile, [sms_code, 5], 1)
+        # 导入异步的包
+        from celery_tasks.sms.tasks import send_sms_code
+        # 使用send_sms_code.delay(参数)
+        send_sms_code.delay(mobile, sms_code)
 
         # 10.响应结果
         return http.JsonResponse({'code': RETCODE.OK,

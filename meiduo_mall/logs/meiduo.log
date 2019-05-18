@@ -1035,3 +1035,54 @@ INFO 2019-05-18 07:56:06,778 basehttp 124 "GET /image_codes/a8d3d6f9-47d3-4099-8
 INFO 2019-05-18 07:56:09,419 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
 INFO 2019-05-18 07:56:16,025 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
 INFO 2019-05-18 07:56:32,539 basehttp 124 "GET /sms_codes/18079308731/?image_code=9rbk&image_code_id=a8d3d6f9-47d3-4099-8c28-6cb12b86229e HTTP/1.1" 200 63
+INFO 2019-05-18 08:23:28,930 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 08:23:29,018 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:23:29,026 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 08:23:29,027 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:23:29,028 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:23:29,033 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 08:23:29,044 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 08:23:29,051 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:23:29,058 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:23:29,549 basehttp 124 "GET /image_codes/883d1102-dd45-467d-9a1e-41ef77dc878d/ HTTP/1.1" 200 3391
+INFO 2019-05-18 08:23:34,813 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 08:23:40,947 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 08:23:51,030 basehttp 124 "GET /sms_codes/18079308731/?image_code=qwud&image_code_id=883d1102-dd45-467d-9a1e-41ef77dc878d HTTP/1.1" 200 63
+INFO 2019-05-18 08:44:03,384 basehttp 124 "GET /register/ HTTP/1.1" 200 5297
+INFO 2019-05-18 08:44:03,442 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:44:03,444 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-18 08:44:03,444 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:44:03,445 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-18 08:44:03,449 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:44:03,454 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-18 08:44:03,516 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:44:03,538 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-05-18 08:44:03,840 basehttp 124 "GET /image_codes/23d551a6-2ac4-4fae-a237-21561c2aa3d2/ HTTP/1.1" 200 3280
+INFO 2019-05-18 08:44:12,205 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 08:44:16,712 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+ERROR 2019-05-18 08:44:20,608 exception 135 Internal Server Error: /sms_codes/18079308731/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 82, in get
+    from celery_tasks.sms.tasks import send_sms_code
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/celery_tasks/sms/tasks.py", line 7, in <module>
+    from celery_tasks.yuntongxun.ccp_sms import CCP
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/celery_tasks/yuntongxun/ccp_sms.py", line 5, in <module>
+    from celery_tasks.yuntongxun import REST
+ImportError: cannot import name 'REST'
+ERROR 2019-05-18 08:44:20,911 basehttp 124 "GET /sms_codes/18079308731/?image_code=actt&image_code_id=23d551a6-2ac4-4fae-a237-21561c2aa3d2 HTTP/1.1" 500 110659
+INFO 2019-05-18 08:45:17,284 basehttp 124 "GET /image_codes/37e2673c-d7dd-4086-b7df-e5fa2253d89d/ HTTP/1.1" 200 3359
+INFO 2019-05-18 08:45:23,146 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 08:45:38,373 basehttp 124 "GET /sms_codes/18079308731/?image_code=ygxs&image_code_id=37e2673c-d7dd-4086-b7df-e5fa2253d89d HTTP/1.1" 200 63
+INFO 2019-05-18 08:50:11,063 basehttp 124 "GET /image_codes/fffcf328-cc5c-413d-acde-b082c5aa2b00/ HTTP/1.1" 200 3488
+INFO 2019-05-18 08:50:16,991 basehttp 124 "GET /mobiles/18079308731/count/ HTTP/1.1" 200 41
+INFO 2019-05-18 08:50:41,485 basehttp 124 "GET /sms_codes/18079308731/?image_code=qega&image_code_id=fffcf328-cc5c-413d-acde-b082c5aa2b00 HTTP/1.1" 200 63

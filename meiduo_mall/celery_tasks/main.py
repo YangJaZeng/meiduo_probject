@@ -1,7 +1,7 @@
 from celery import Celery
 import os
 
-
+# 全局django环境
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "meiduo_mall.settings.dev")
 
 # 用Celery创建对象
