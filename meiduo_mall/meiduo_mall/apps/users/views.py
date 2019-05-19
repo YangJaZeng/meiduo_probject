@@ -1,4 +1,4 @@
-from django.contrib.auth import login
+from django.contrib.auth import login, authenticate, logout
 from django.db import DatabaseError
 # from django.http import HttpResponse
 from django.shortcuts import render, redirect
@@ -11,6 +11,113 @@ from django_redis import get_redis_connection
 # from users.models import User
 from meiduo_mall.utils.response_code import RETCODE
 from .models import User
+from meiduo_mall.utils.views import LoginRequiredMixin
+
+
+class UserInfoView(LoginRequiredMixin, View):
+    """用户中心"""
+
+    def get(self, request):
+        """提供个人信息界面"""
+        # 如果使用该方法, 它的用法如下所示:
+        # 进行判断: 是否登录验证
+        # if request.user.is_authenticated():
+        #     # 如果登录, 则正常加载用户中心页面
+        #     return render(request, 'user_center_info.html')
+        # else:
+        #     # 否则, 进入登录页面,进行登录
+        #     return redirect(reverse('users:login'))
+        return render(request, 'user_center_info.html')
+
+
+class LogoutView(View):
+    """退出登录"""
+
+    def get(self, request):
+        """实现退出登录逻辑"""
+
+        # 清理 session
+        logout(request)
+
+        # 退出登录，重定向到登录页面
+        response = redirect(reverse('contents:index'))
+
+        # 退出登录是清除 cookie 中的username
+        response.delete_cookie('username')
+
+        # 返回响应
+        return response
+
+
+class LoginView(View):
+
+    def get(self, request):
+        """
+        用户登录
+        :param request:
+        :return: 返回登陆页面
+        """
+        return render(request, 'login.html')
+
+    def post(self, request):
+        """
+        实现登录逻辑
+        :param request:请求对象
+        :return: 登录结果
+        """
+        # 1.接收参数
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        remembered = request.POST.get('remembered')
+
+        # 2.校验参数
+        # 判断参数是否齐全
+        # 这里注意：remembered 这个参数可以是 None 或者是 ‘no’
+        # 所以我们不对它是否存在进行判断
+        if not all([username, password]):
+            return http.HttpResponseForbidden('缺少必传参数')
+
+        # 判断用户名是否是5-20个字符
+        if not re.match(r'^[a-zA-Z0-9_-]{5,20}$', username):
+            return http.HttpResponseForbidden('请输入正确的用户名或手机号')
+
+        # 判断密码是否是8-20个数字
+        if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
+            return http.HttpResponseForbidden('密码最少8位，最长20位')
+
+        # 认证登录用户 authenticate 是django自带的认证用户方法,返回用户名
+        user = authenticate(username=username, password=password)
+        if user is None:
+            return render(request, 'login.html', {'account_errmsg': '用户名或密码错误'})
+
+        # 实现状态保持
+        login(request, user)
+        # 设置状态保持的周期
+        if remembered != 'on':
+            request.session.set_expiry(0)
+        else:
+            request.session.set_expiry(None)
+
+        # 获取跳转过来的地址
+        next = request.GET.get('next')
+
+        # 判断参数是否存在
+        if next:
+            # 如果是从别的页面跳转过来的, 则重新跳转到原来的页面
+            response = redirect(next)
+        else:
+            # 生成响应对象
+            # 如果不是从别的页面跳转过来的，就重定向到首页
+            response = redirect(reverse('contents:index'))
+        # 在响应对象中设置用户名信息
+        # 将用户名写入到 cookie，有效期15天
+        response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+
+        # 返回响应结果
+        return response
+
+        # 响应登录结果(重定向到首页)
+        # return redirect(reverse('contents:index'))
 
 
 class MobileCountView(View):
@@ -114,7 +221,16 @@ class RegisterView(View):
         # 5. 状态保持:  session
         login(request, user)
 
+        # 生成响应对象
+        response = redirect(reverse('contents:index'))
+
+        # 在响应对象中设置用户名信息
+        # 将用户名写入到 cookie， 有效期15天
+        response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+        # 返回响应结果
+        return response
+
         # 4.  跳转到首页
         # return http.HttpResponse('保存成功, 跳转还没有做(需要跳转到首页)')
 
-        return redirect(reverse('contents:index'))
+        # return redirect(reverse('contents:index'))

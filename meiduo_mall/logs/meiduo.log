@@ -1866,3 +1866,503 @@ INFO 2019-05-18 12:53:37,257 basehttp 124 "GET / HTTP/1.1" 200 25122
 WARNING 2019-05-18 12:53:37,846 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
 WARNING 2019-05-18 12:53:38,028 base 152 Not Found: /carts/simple/
 WARNING 2019-05-18 12:53:38,029 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3077
+INFO 2019-05-19 06:45:50,944 basehttp 124 "GET / HTTP/1.1" 200 24696
+WARNING 2019-05-19 06:45:51,892 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 06:45:51,901 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+WARNING 2019-05-19 06:45:52,082 base 152 Not Found: /favicon.ico
+WARNING 2019-05-19 06:45:52,083 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 3241
+WARNING 2019-05-19 06:45:58,860 base 152 Not Found: /login.html
+WARNING 2019-05-19 06:45:58,861 basehttp 124 "GET /login.html HTTP/1.1" 404 3238
+INFO 2019-05-19 06:46:07,172 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-05-19 06:46:07,226 basehttp 124 "GET /login/ HTTP/1.1" 200 3257
+INFO 2019-05-19 06:46:07,271 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-05-19 06:46:07,272 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 5212
+INFO 2019-05-19 06:46:07,318 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-05-19 06:46:07,328 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-05-19 06:49:40,619 basehttp 124 "GET /login/ HTTP/1.1" 200 4201
+INFO 2019-05-19 06:49:40,677 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 06:49:40,686 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 06:49:40,689 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 06:49:40,695 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-19 06:49:40,697 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 06:49:40,698 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 06:49:40,754 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 06:49:40,765 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:12:35,216 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 07:12:35,286 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:12:35,294 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:12:35,297 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:12:35,300 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:12:35,301 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:12:35,334 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:12:35,335 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-19 07:12:35,368 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:09,301 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 07:13:09,355 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:09,367 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:09,384 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:09,386 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:09,422 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:09,458 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:09,464 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:09,485 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:22,737 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 07:13:22,777 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:22,793 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:22,799 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:22,824 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:22,832 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:22,842 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:22,857 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:13:22,859 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+WARNING 2019-05-19 07:13:38,162 basehttp 124 "POST /login/ HTTP/1.1" 403 30
+INFO 2019-05-19 07:14:40,314 basehttp 124 "GET /register HTTP/1.1" 301 0
+INFO 2019-05-19 07:14:40,413 basehttp 124 "GET /register/ HTTP/1.1" 200 5287
+INFO 2019-05-19 07:14:40,791 basehttp 124 "GET /image_codes/0922dbfa-249d-4115-8536-59ef00a7c801/ HTTP/1.1" 200 2771
+INFO 2019-05-19 07:14:47,411 basehttp 124 "GET /usernames/laowang/count/ HTTP/1.1" 200 41
+INFO 2019-05-19 07:14:50,073 basehttp 124 "GET /usernames/laowang/count/ HTTP/1.1" 200 41
+INFO 2019-05-19 07:15:22,488 basehttp 124 "GET /mobiles/18079308732/count/ HTTP/1.1" 200 41
+INFO 2019-05-19 07:15:26,753 basehttp 124 "GET /image_codes/689814c1-c797-4d0a-aed3-5599756fdc6d/ HTTP/1.1" 200 3550
+INFO 2019-05-19 07:15:32,978 basehttp 124 "GET /mobiles/18079308732/count/ HTTP/1.1" 200 41
+INFO 2019-05-19 07:15:33,964 basehttp 124 "GET /sms_codes/18079308732/?image_code=gkcc&image_code_id=689814c1-c797-4d0a-aed3-5599756fdc6d HTTP/1.1" 200 63
+INFO 2019-05-19 07:15:42,867 basehttp 124 "GET /mobiles/18079308732/count/ HTTP/1.1" 200 41
+INFO 2019-05-19 07:15:42,896 basehttp 124 "GET /usernames/laowang/count/ HTTP/1.1" 200 41
+INFO 2019-05-19 07:15:43,072 basehttp 124 "POST /register/ HTTP/1.1" 302 0
+INFO 2019-05-19 07:15:43,095 basehttp 124 "GET / HTTP/1.1" 200 24696
+WARNING 2019-05-19 07:15:43,786 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 07:15:43,790 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-05-19 07:15:49,669 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-05-19 07:15:49,719 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+WARNING 2019-05-19 07:16:00,570 basehttp 124 "POST /login/ HTTP/1.1" 403 30
+INFO 2019-05-19 07:20:02,973 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-19 07:20:03,016 basehttp 124 "GET / HTTP/1.1" 200 24686
+INFO 2019-05-19 07:20:03,088 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,090 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,099 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,111 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,113 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,119 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,130 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,138 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,148 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,157 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,165 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,176 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,182 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,215 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,228 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,241 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,256 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,270 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,293 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,295 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,295 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,298 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,319 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,334 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:20:03,340 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-05-19 07:20:03,597 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 07:20:03,599 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-05-19 07:20:10,280 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-05-19 07:20:10,333 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 07:20:19,699 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-19 07:20:19,709 basehttp 124 "GET / HTTP/1.1" 200 24686
+WARNING 2019-05-19 07:20:20,198 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 07:20:20,200 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-05-19 07:36:55,252 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-05-19 07:36:55,350 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 07:37:07,364 basehttp 124 "POST /login/ HTTP/1.1" 200 4312
+INFO 2019-05-19 07:37:27,671 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-19 07:37:27,697 basehttp 124 "GET / HTTP/1.1" 200 24686
+WARNING 2019-05-19 07:37:28,096 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 07:37:28,098 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-05-19 07:40:29,217 basehttp 124 "GET / HTTP/1.1" 200 33875
+INFO 2019-05-19 07:40:29,258 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,259 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,280 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,282 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,322 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,323 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,356 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,360 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,379 basehttp 124 "GET /static/js/base.js HTTP/1.1" 200 1016
+INFO 2019-05-19 07:40:29,391 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,394 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,404 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,410 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,417 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,423 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,428 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,444 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,446 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,460 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,461 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,474 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,477 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,488 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,492 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,498 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:29,505 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-05-19 07:40:29,882 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 07:40:29,885 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-05-19 07:40:33,671 basehttp 124 "GET / HTTP/1.1" 200 33875
+INFO 2019-05-19 07:40:33,705 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,721 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,726 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,741 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,756 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,774 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,780 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,808 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,829 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,838 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,847 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,863 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,873 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,876 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,903 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,914 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,925 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,928 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,935 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,942 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,950 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,954 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,961 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,978 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:33,997 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 07:40:34,000 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+WARNING 2019-05-19 07:40:34,392 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 07:40:34,413 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+WARNING 2019-05-19 08:00:05,993 base 152 Not Found: /login.html
+WARNING 2019-05-19 08:00:05,999 basehttp 124 "GET /login.html HTTP/1.1" 404 3238
+INFO 2019-05-19 08:00:09,278 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-05-19 08:00:09,357 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 08:00:17,285 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-19 08:00:17,342 basehttp 124 "GET / HTTP/1.1" 200 31296
+WARNING 2019-05-19 08:00:17,638 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:00:17,655 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-05-19 08:03:47,515 basehttp 124 "GET / HTTP/1.1" 200 31336
+INFO 2019-05-19 08:03:47,561 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,567 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,576 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,592 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,598 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,608 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,613 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,615 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,626 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,647 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,666 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,672 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,682 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,693 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,710 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,736 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,744 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,747 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,773 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,781 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,792 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,814 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,823 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,832 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,842 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:47,851 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-05-19 08:03:47,917 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:03:47,921 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-05-19 08:03:49,184 basehttp 124 "GET / HTTP/1.1" 200 31336
+INFO 2019-05-19 08:03:49,240 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,263 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,268 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,276 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,280 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,290 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,315 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,339 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,341 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,373 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,377 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,380 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,391 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,414 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,429 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,442 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,462 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,478 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,486 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,530 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,523 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,534 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,541 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,552 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,558 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:03:49,572 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-05-19 08:03:49,590 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:03:49,614 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3247
+INFO 2019-05-19 08:14:50,229 basehttp 124 "GET / HTTP/1.1" 200 31370
+INFO 2019-05-19 08:14:50,358 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,376 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,381 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,382 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,390 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,393 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,410 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,429 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,442 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,461 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,475 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,489 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,505 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,517 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,519 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,521 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,539 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,551 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,562 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,568 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,573 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,575 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,589 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,593 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,598 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:14:50,603 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-05-19 08:14:50,732 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:14:50,746 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+ERROR 2019-05-19 08:14:51,940 exception 135 Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'coutents'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/users/views.py", line 26, in get
+    response = redirect(reverse('coutents:index'))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'coutents' is not a registered namespace
+ERROR 2019-05-19 08:14:52,343 basehttp 124 "GET /logout/ HTTP/1.1" 500 97885
+INFO 2019-05-19 08:16:13,341 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-19 08:16:13,435 basehttp 124 "GET / HTTP/1.1" 200 31370
+INFO 2019-05-19 08:16:13,489 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,505 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,514 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,528 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,533 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,541 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,545 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,551 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,566 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,581 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,587 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,594 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,612 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,614 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,621 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,630 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,639 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,646 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,660 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,672 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,679 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,691 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,694 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,702 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,706 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:16:13,722 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-05-19 08:16:13,930 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:16:13,937 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-05-19 08:18:11,980 basehttp 124 "GET / HTTP/1.1" 200 34097
+INFO 2019-05-19 08:18:12,045 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,049 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,046 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,050 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,051 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,054 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,060 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,064 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,076 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,095 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,096 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,106 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,122 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,142 basehttp 124 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,152 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,164 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,174 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,197 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,208 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,220 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,228 basehttp 124 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,231 basehttp 124 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,243 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,261 basehttp 124 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,262 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2019-05-19 08:18:12,268 basehttp 124 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2019-05-19 08:18:12,492 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:18:12,494 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-05-19 08:18:53,712 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 08:18:59,361 basehttp 124 "GET /register/ HTTP/1.1" 200 5287
+INFO 2019-05-19 08:18:59,650 basehttp 124 "GET /image_codes/5432bb2a-cb93-4039-b359-66cd11b63055/ HTTP/1.1" 200 3133
+INFO 2019-05-19 08:19:10,092 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 08:19:18,096 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-19 08:19:18,112 basehttp 124 "GET / HTTP/1.1" 200 34097
+WARNING 2019-05-19 08:19:18,553 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:19:18,568 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+INFO 2019-05-19 08:19:20,712 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-19 08:19:20,731 basehttp 124 "GET / HTTP/1.1" 200 34097
+WARNING 2019-05-19 08:19:21,228 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:19:21,249 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3419
+WARNING 2019-05-19 08:32:14,680 base 152 Not Found: /user_center_info.html
+WARNING 2019-05-19 08:32:14,681 basehttp 124 "GET /user_center_info.html HTTP/1.1" 404 3611
+INFO 2019-05-19 08:33:31,827 basehttp 124 "GET /info HTTP/1.1" 301 0
+INFO 2019-05-19 08:33:31,852 basehttp 124 "GET /info/ HTTP/1.1" 200 5394
+INFO 2019-05-19 08:33:31,923 basehttp 124 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2019-05-19 08:33:31,931 basehttp 124 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+INFO 2019-05-19 08:33:31,932 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 200 4692
+INFO 2019-05-19 08:33:31,946 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-05-19 08:33:31,951 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2019-05-19 08:55:16,776 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-05-19 08:55:16,815 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-05-19 08:55:16,837 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:55:16,839 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 08:55:16,853 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:55:16,857 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:55:16,860 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:55:16,862 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-19 08:55:16,865 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:55:16,869 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 08:55:28,521 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-05-19 08:55:28,539 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 08:55:36,745 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 08:55:37,989 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 08:55:38,645 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:55:38,646 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 08:55:50,747 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-19 08:55:50,754 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 08:55:51,139 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:55:51,141 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 08:55:56,463 basehttp 124 "GET /info/ HTTP/1.1" 200 5394
+INFO 2019-05-19 08:56:06,562 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-19 08:56:06,571 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 08:56:06,995 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 08:56:06,998 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 08:56:08,128 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-05-19 08:56:08,134 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-05-19 09:01:17,541 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-05-19 09:01:17,564 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 09:01:17,571 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 09:01:17,572 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 09:01:17,576 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 09:01:17,579 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 09:01:17,590 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-19 09:01:17,600 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-05-19 09:01:17,603 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+ERROR 2019-05-19 09:01:24,702 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/users/views.py", line 116, in post
+    response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-19 09:01:24,864 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 500 85751
+INFO 2019-05-19 09:02:54,932 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 09:03:02,264 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-19 09:03:02,303 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 09:03:02,661 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 09:03:02,662 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 09:03:06,051 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-19 09:03:06,061 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 09:03:06,410 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 09:03:06,418 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 09:03:07,740 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 09:03:11,511 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-05-19 09:03:11,517 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+ERROR 2019-05-19 09:03:18,100 exception 135 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/users/views.py", line 116, in post
+    response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-19 09:03:18,164 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 500 85751
+WARNING 2019-05-19 09:08:00,108 csrf 160 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2019-05-19 09:08:00,138 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 403 2502
+INFO 2019-05-19 09:08:27,225 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-05-19 09:12:33,552 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-05-19 09:12:33,578 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-19 09:12:33,581 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-19 09:12:33,596 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-19 09:12:33,608 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-19 09:12:33,622 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-19 09:12:33,625 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-19 09:12:33,628 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-05-19 09:12:33,632 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-19 09:12:39,573 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2019-05-19 09:12:39,595 basehttp 124 "GET /info/ HTTP/1.1" 200 5394
+INFO 2019-05-19 09:12:48,235 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 09:12:48,535 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 09:12:48,536 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 09:12:50,221 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-19 09:12:50,229 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 09:12:50,726 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 09:12:50,726 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 09:12:51,758 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 09:12:58,122 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-19 09:12:58,130 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 09:12:58,425 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 09:12:58,427 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 09:13:00,120 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-19 09:13:00,126 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 09:13:00,418 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 09:13:00,420 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 09:13:52,863 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-05-19 09:13:52,893 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-05-19 10:41:13,348 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-05-19 10:41:13,361 basehttp 124 "GET /login/ HTTP/1.1" 200 4197
+INFO 2019-05-19 10:41:14,585 basehttp 124 "GET / HTTP/1.1" 200 34181
+WARNING 2019-05-19 10:41:15,069 base 152 Not Found: /carts/simple/
+WARNING 2019-05-19 10:41:15,069 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 3587
+INFO 2019-05-19 10:41:20,312 basehttp 124 "GET /info/ HTTP/1.1" 302 0
+INFO 2019-05-19 10:41:20,324 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-05-19 10:41:39,308 basehttp 124 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2019-05-19 10:41:39,355 basehttp 124 "GET /info/ HTTP/1.1" 200 5394
+WARNING 2019-05-19 10:41:43,378 base 152 Not Found: /info/register.html
+WARNING 2019-05-19 10:41:43,379 basehttp 124 "GET /info/register.html HTTP/1.1" 404 3602
+WARNING 2019-05-19 10:41:57,727 base 152 Not Found: /info/login.html
+WARNING 2019-05-19 10:41:57,728 basehttp 124 "GET /info/login.html HTTP/1.1" 404 3593
+INFO 2019-05-19 10:42:01,208 basehttp 124 "GET /static/cart.html HTTP/1.1" 200 4624
+INFO 2019-05-19 10:42:01,253 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 18210
+INFO 2019-05-19 10:42:03,955 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-05-19 10:42:05,165 basehttp 124 "GET /login/?next=/info/ HTTP/1.1" 200 4197
+INFO 2019-05-19 10:43:53,867 basehttp 124 "GET /info/ HTTP/1.1" 200 5394
+WARNING 2019-05-19 10:43:55,523 base 152 Not Found: /info/user_center_info.html
+WARNING 2019-05-19 10:43:55,524 basehttp 124 "GET /info/user_center_info.html HTTP/1.1" 404 3626
