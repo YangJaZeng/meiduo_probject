@@ -22,8 +22,8 @@ def send_sms_code(self, mobile, sms_code):
     try:
         # 调用CCP() 发送短信，并传递相关参数
         result = CCP().send_template_sms(mobile,
-                                         [sms_code, const.IMAGE_COOE_REDIS_EXPIRES // 60],
-                                         const.SEND_SMS_TEPLATE_ID)
+                                         [sms_code, const.IMAGE_COOE_REDIS_EXPIRES // 60], 1)
+
     except Exception as e:
         # 如果发送过程出错，打印错误日志
         logger.error(e)

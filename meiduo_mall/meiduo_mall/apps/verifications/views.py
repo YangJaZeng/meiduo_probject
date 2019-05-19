@@ -6,7 +6,7 @@ from meiduo_mall.utils.response_code import RETCODE
 from verifications import const
 from venv import logger
 from django_redis import get_redis_connection
-from libs.yuntongxun.ccp_sms import CCP
+# from libs.yuntongxun.ccp_sms import CCP
 # 导入日志
 import logging
 
