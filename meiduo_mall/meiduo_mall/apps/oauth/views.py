@@ -37,7 +37,7 @@ class QQUserView(View):
             logger.error(e)
             # 返回结果
             return http.HttpResponseServerError('OAuth2.0认证失败')
-        pass
+
 
 
 class QQURLView(View):
