@@ -81,8 +81,8 @@ class SMSCodeView(View):
         # SEND_SMS_TEMPLATE_ID = 1
         # CCP().send_template_sms(mobile, [sms_code, 5], 1)
         # 导入异步的包
-        from celery_tasks.sms.tasks import send_sms_code
-        send_sms_code.delay(mobile, sms_code)
+        # from celery_tasks.sms.email import send_sms_code
+        # send_sms_code.delay(mobile, sms_code)
 
         # 10.响应结果
         return http.JsonResponse({'code': RETCODE.OK,

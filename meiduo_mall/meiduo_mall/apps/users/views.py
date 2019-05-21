@@ -1,3 +1,5 @@
+import json
+
 from django.contrib.auth import login, authenticate, logout
 from django.db import DatabaseError
 # from django.http import HttpResponse
@@ -12,6 +14,42 @@ from django_redis import get_redis_connection
 from meiduo_mall.utils.response_code import RETCODE
 from .models import User
 from meiduo_mall.utils.views import LoginRequiredMixin
+import logging
+
+logger = logging.getLogger('django')
+
+
+class EmailView(View):
+    """添加邮箱"""
+
+    def put(self, request):
+        """实现添加邮箱逻辑"""
+        # 接收参数
+        json_dict = json.loads(request.body.decode())
+        email = json_dict.get('email')
+
+        # 校验参数
+        if not email:
+            return http.HttpResponseForbidden('缺少必传参数')
+        if not re.match((r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email)):
+            return http.HttpResponseForbidden('参数email有误')
+
+        # 赋值 email 字段
+        try:
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            logger.error(e)
+            return http.JsonResponse({'code': RETCODE.DBERR, 'errmsg': '添加邮箱失败'})
+
+        # 导入:
+        from celery_tasks.email.tasks import send_verify_email
+        # 异步发送验证邮件
+        verify_url = '邮件验证链接'
+        send_verify_email.delay(email, verify_url)
+
+        # 响应添加邮箱结果
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '添加邮箱成功'})
 
 
 class UserInfoView(LoginRequiredMixin, View):
@@ -27,7 +65,16 @@ class UserInfoView(LoginRequiredMixin, View):
         # else:
         #     # 否则, 进入登录页面,进行登录
         #     return redirect(reverse('users:login'))
-        return render(request, 'user_center_info.html')
+
+        # 将验证用户的信息进行拼接
+        context = {
+            'username': request.user.username,
+            'mobile': request.user.mobile,
+            'email': request.user.email,
+            'email': request.user.email_active
+        }
+
+        return render(request, 'user_center_info.html', context=context)
 
 
 class LogoutView(View):
@@ -174,8 +221,7 @@ class RegisterView(View):
         mobile = request.POST.get('mobile')
         sms_code_client = request.POST.get('sms_code')
         allow = request.POST.get('allow')
-        print('拿到l')
-        print(mobile)
+
         # 2.  校验参数
         # 2.1 全局校验:
         if not all([username, password, password2, mobile, allow]):
@@ -195,16 +241,15 @@ class RegisterView(View):
 
         if allow != 'on':
             return http.HttpResponseForbidden('请勾选用户协议')
-        print('判断了')
+
         # 对短信验证码进行校验:
         redis_conn = get_redis_connection('verify_code')
         # redis取出的:
         sms_code_server = redis_conn.get('sms_code_%s' % mobile)
-        print(sms_code_server)
+
         if sms_code_server is None:
-            print('进去了')
             return render(request, 'register.html', {'sms_code_errmsg': '验证码实效'})
-        print('失效了')
+
         # 对比前后端的验证码:
         if sms_code_client != sms_code_server.decode():
             return render(request, 'register.html', {'sms_code_errmsg': '输入的验证码有误'})
@@ -215,7 +260,7 @@ class RegisterView(View):
                                             password=password,
                                             mobile=mobile)
         except DatabaseError:
-            print('失败')
+
             return render(request, 'register.html', {'reigster_errmsg': '写入数据库出错'})
 
         # 5. 状态保持:  session

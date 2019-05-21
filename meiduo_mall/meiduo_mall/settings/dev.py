@@ -25,7 +25,7 @@ SECRET_KEY = 'uqy05zccot#=%1b+q5z-upo-gw)xamd(h(bity0br8ia@o^=6a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'users',
     'verifications',
     'contents',
-    'oauth'
+    'oauth',
 
 ]
 
@@ -219,6 +219,22 @@ AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileAuthBackend']
 # 搭配 login_required 装饰器使用的
 LOGIN_URL = '/login/'
 
+# QQ 登录
 QQ_CLIENT_ID = '101518219'
 QQ_CLIENT_SECRET = '418d84ebdc7241efb79536886ae95224'
 QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
+
+# 发送短信的相关设置, 这些设置是当用户没有发送相关字段时, 默认使用的内容:
+# 发送短信必须进行的设置:
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# 我们使用的 smtp服务器 地址
+EMAIL_HOST = 'smtp.163.com'
+# 端口号
+EMAIL_PORT = 25
+# 下面的内容是可变的, 随后台设置的不同而改变:
+# 发送邮件的邮箱
+EMAIL_HOST_USER = '18079308731@163.com'
+# 在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = 'y18079308731'
+# 收件人看到的发件人
+EMAIL_FROM = '大老板<18079308731@163.com>'
