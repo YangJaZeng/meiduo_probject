@@ -11,3 +11,11 @@ class LoginRequiredMixin(object):
         view = super().as_view()
         # 添加装饰器行为：
         return login_required(view)
+
+
+class LoginRequiredJsonMixin(object):
+
+    @classmethod
+    def as_view(cls, **initkwargs):
+        view = super().as_view(**initkwargs)
+        return login_required_json(view)

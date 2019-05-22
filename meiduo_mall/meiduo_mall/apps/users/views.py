@@ -19,6 +19,35 @@ import logging
 logger = logging.getLogger('django')
 
 
+class VerifyEmailView(View):
+    """验证邮箱"""
+
+    def get(self, request):
+
+        # 接收参数
+        token = request.GET.get('token')
+
+        # 校验参数
+        if not token:
+            return http.HttpResponseForbidden('缺少token')
+
+        # 使用封装好的函数 将token解码
+        user = User.check_verify_email_token(token)
+        if not user:
+            return http.HttpResponseForbidden('无效的token')
+
+        # 修改 email_active 的值为 True
+        try:
+            user.email_active = True
+            user.save()
+        except Exception as e:
+            logger.error(e)
+            return http.HttpResponseServerError('邮件激活失败')
+
+        # 返回结果
+        return redirect(reverse('users:info'))
+
+
 class EmailView(View):
     """添加邮箱"""
 
@@ -26,12 +55,12 @@ class EmailView(View):
         """实现添加邮箱逻辑"""
         # 接收参数
         json_dict = json.loads(request.body.decode())
-        email = json_dict.get('email')
+        email = json_dict['email']
 
         # 校验参数
         if not email:
             return http.HttpResponseForbidden('缺少必传参数')
-        if not re.match((r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email)):
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
             return http.HttpResponseForbidden('参数email有误')
 
         # 赋值 email 字段
@@ -45,7 +74,9 @@ class EmailView(View):
         # 导入:
         from celery_tasks.email.tasks import send_verify_email
         # 异步发送验证邮件
-        verify_url = '邮件验证链接'
+        verify_url = request.user.generate_verify_email_url()
+
+        # 发送验证链接:
         send_verify_email.delay(email, verify_url)
 
         # 响应添加邮箱结果
@@ -71,7 +102,7 @@ class UserInfoView(LoginRequiredMixin, View):
             'username': request.user.username,
             'mobile': request.user.mobile,
             'email': request.user.email,
-            'email': request.user.email_active
+            'email_active': request.user.email_active
         }
 
         return render(request, 'user_center_info.html', context=context)

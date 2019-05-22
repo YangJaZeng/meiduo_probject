@@ -238,3 +238,7 @@ EMAIL_HOST_USER = '18079308731@163.com'
 EMAIL_HOST_PASSWORD = 'y18079308731'
 # 收件人看到的发件人
 EMAIL_FROM = '大老板<18079308731@163.com>'
+
+
+# 邮箱验证链接
+EMAIL_VERIFY_URL = 'http://www.meiduo.site:8000/emails/verification/'

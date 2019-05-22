@@ -45,3 +45,4 @@ class UsernameMobileAuthBackend(ModelBackend):
         # 校验user是否存在并校验密码是否正确 check_password判断密码是否正确
         if user and user.check_password(password):
             return user
+
