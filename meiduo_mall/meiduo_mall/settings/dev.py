@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'verifications',
     'contents',
     'oauth',
+    'areas',
 
 ]
 
