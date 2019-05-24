@@ -262,7 +262,6 @@ class CreateAddressView(LoginRequiredJSONMixin, View):
                 request.user.save()
 
 
-
         except Exception as e:
 
             logger.error(e)
