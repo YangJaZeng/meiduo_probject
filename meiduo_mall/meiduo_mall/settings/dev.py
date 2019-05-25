@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'contents',
     'oauth',
     'areas',
+    'goods'
 
 ]
 

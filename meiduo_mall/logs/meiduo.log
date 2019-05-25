@@ -6069,3 +6069,14 @@ INFO 2019-05-24 10:57:11,333 basehttp 124 "GET /info/ HTTP/1.1" 200 8359
 WARNING 2019-05-24 10:57:12,057 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
 WARNING 2019-05-24 10:57:12,239 base 152 Not Found: /browse_histories/
 WARNING 2019-05-24 10:57:12,263 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 5866
+INFO 2019-05-24 12:27:42,187 basehttp 124 "GET /addresses/ HTTP/1.1" 200 9631
+INFO 2019-05-24 12:27:42,216 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-24 12:27:42,222 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-24 12:27:42,229 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-24 12:27:42,230 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-24 12:27:42,252 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-24 12:27:42,256 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-24 12:27:42,297 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-24 12:27:42,302 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-24 12:27:42,323 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2019-05-24 12:27:42,624 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
