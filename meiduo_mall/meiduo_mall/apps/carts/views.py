@@ -8,7 +8,7 @@ from django.views import View
 from django_redis import get_redis_connection
 
 from goods.models import SKU
-from utils.response_code import RETCODE
+from meiduo_mall.utils.response_code import RETCODE
 
 
 class CartsSimpleView(View):
