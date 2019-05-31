@@ -11,6 +11,7 @@ from django.views import View
 import re
 from django_redis import get_redis_connection
 # from users.models import User
+from carts.utils import merge_cart_cookie_to_redis
 from goods.models import SKU
 from meiduo_mall.utils.response_code import RETCODE
 from .models import User, Address
@@ -555,6 +556,8 @@ class LoginView(View):
         # 将用户名写入到 cookie，有效期15天
         response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
 
+        # 合并购物车
+        response = merge_cart_cookie_to_redis(request, user, response)
         # 返回响应结果
         return response
 

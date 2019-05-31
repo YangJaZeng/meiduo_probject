@@ -10,6 +10,7 @@ from django.views import View
 from QQLoginTool.QQtool import OAuthQQ
 from django_redis import get_redis_connection
 
+from carts.utils import merge_cart_cookie_to_redis
 from meiduo_mall.utils.response_code import RETCODE
 from oauth.models import OAuthQQUser
 from oauth.utils import generate_access_token, check_access_token
@@ -89,6 +90,8 @@ class QQUserView(View):
         # 8.登录是用户名写入到 cookid, 有效期 15天
         response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
 
+        # 合并购物车
+        response = merge_cart_cookie_to_redis(request, user, response)
         # 9.返回（从哪里来到那里去）
         return response
 
@@ -143,6 +146,8 @@ class QQUserView(View):
             # 将用户信息写入到 cookie 中， 有效期15天
             response.set_cookie('username', qq_user.username, max_age=3600 * 24 * 15)
 
+            # 合并购物车
+            response = merge_cart_cookie_to_redis(request, qq_user, response)
             # 返回响应
             return response
 

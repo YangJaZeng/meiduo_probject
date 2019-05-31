@@ -10480,3 +10480,1749 @@ Traceback (most recent call last):
     if category.parent is None:
 AttributeError: 'Goods' object has no attribute 'parent'
 ERROR 2019-05-29 03:11:53,671 basehttp 124 "GET /detail/3/ HTTP/1.1" 500 90774
+INFO 2019-05-30 07:45:17,795 basehttp 124 "GET / HTTP/1.1" 200 125012
+INFO 2019-05-30 07:45:17,900 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:17,903 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:17,905 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:17,925 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:17,936 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:17,945 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:18,057 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:18,109 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:18,140 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:18,144 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:18,145 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:18,161 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:18,187 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:18,492 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+WARNING 2019-05-30 07:45:19,739 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 07:45:19,741 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 07:45:50,070 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 19538
+INFO 2019-05-30 07:45:50,120 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:50,143 basehttp 124 "GET /static/js/list.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:50,150 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:50,446 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 304 0
+INFO 2019-05-30 07:45:50,486 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 07:45:50,489 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 07:45:50,493 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+ERROR 2019-05-30 07:46:15,064 exception 135 Internal Server Error: /detail/3/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/goods/views.py", line 83, in get
+    return render(request, 'detail.html', context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/templates/detail.html", line 267, in top-level template code
+    <a href="{{ breadcrumb.cat1.url }}">{{ breadcrumb.cat1.name }}</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'breadcrumb' is undefined
+ERROR 2019-05-30 07:46:16,048 basehttp 124 "GET /detail/3/ HTTP/1.1" 500 169712
+INFO 2019-05-30 07:50:15,979 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 18914
+INFO 2019-05-30 07:50:16,010 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 07:50:16,035 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:50:16,040 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:50:16,045 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:50:16,046 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 07:50:16,055 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-30 07:50:16,063 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:50:16,070 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:50:16,131 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-30 07:50:16,173 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+WARNING 2019-05-30 07:50:16,185 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 07:50:16,186 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+INFO 2019-05-30 07:50:16,189 basehttp 124 "GET /static/images/selected.png HTTP/1.1" 304 0
+WARNING 2019-05-30 07:50:16,203 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 07:50:16,204 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+INFO 2019-05-30 07:50:16,496 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+INFO 2019-05-30 07:50:16,577 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 07:50:16,669 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 07:50:16,673 base 152 Not Found: /comment/3/
+WARNING 2019-05-30 07:50:16,676 basehttp 124 "GET /comment/3/ HTTP/1.1" 404 7073
+WARNING 2019-05-30 07:50:16,679 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 07:50:16,740 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+ERROR 2019-05-30 07:52:29,404 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 112, in post
+    cart_data = base64.b64decode(pickle.dumps(cart_dict)).decode()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+ERROR 2019-05-30 07:52:32,099 basehttp 124 "POST /carts/ HTTP/1.1" 500 92991
+INFO 2019-05-30 07:53:08,204 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 18914
+INFO 2019-05-30 07:53:08,252 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 07:53:08,258 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:53:08,259 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 07:53:08,266 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:53:08,274 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:53:08,279 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-30 07:53:08,285 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:53:08,292 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-05-30 07:53:08,364 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-30 07:53:08,388 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+WARNING 2019-05-30 07:53:08,472 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 07:53:08,495 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 07:53:08,544 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 07:53:08,552 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+INFO 2019-05-30 07:53:08,801 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+INFO 2019-05-30 07:53:08,924 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 07:53:09,037 base 152 Not Found: /comment/3/
+WARNING 2019-05-30 07:53:09,043 basehttp 124 "GET /comment/3/ HTTP/1.1" 404 7073
+WARNING 2019-05-30 07:53:09,031 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 07:53:09,056 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 07:53:09,128 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-30 07:53:43,383 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+WARNING 2019-05-30 07:54:05,643 base 152 Not Found: /detail/3/login.html
+WARNING 2019-05-30 07:54:05,651 basehttp 124 "GET /detail/3/login.html HTTP/1.1" 404 7100
+INFO 2019-05-30 07:54:07,286 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+INFO 2019-05-30 07:54:07,371 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2019-05-30 07:54:14,804 base 152 Not Found: /lgin
+WARNING 2019-05-30 07:54:14,806 basehttp 124 "GET /lgin HTTP/1.1" 404 7055
+INFO 2019-05-30 07:54:20,328 basehttp 124 "GET /login HTTP/1.1" 301 0
+INFO 2019-05-30 07:54:20,396 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-05-30 07:54:23,534 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-30 07:54:25,183 basehttp 124 "GET / HTTP/1.1" 200 125012
+WARNING 2019-05-30 07:54:25,920 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 07:54:25,923 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 07:54:29,782 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 19538
+WARNING 2019-05-30 07:54:30,187 base 152 Not Found: /carts/simple/
+INFO 2019-05-30 07:54:30,188 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 07:54:30,189 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 07:54:33,232 basehttp 124 "GET /detail/5/ HTTP/1.1" 200 18920
+WARNING 2019-05-30 07:54:33,443 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 07:54:33,457 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 07:54:33,461 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 07:54:33,463 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 07:54:33,780 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 07:54:33,809 base 152 Not Found: /comment/5/
+INFO 2019-05-30 07:54:33,812 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 07:54:33,818 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+WARNING 2019-05-30 07:54:33,830 basehttp 124 "GET /comment/5/ HTTP/1.1" 404 7073
+INFO 2019-05-30 07:54:33,888 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-30 07:54:33,891 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-05-30 07:55:42,592 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-05-30 07:57:31,123 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+WARNING 2019-05-30 08:06:41,229 base 152 Not Found: /detail/5/cart.html
+WARNING 2019-05-30 08:06:41,231 basehttp 124 "GET /detail/5/cart.html HTTP/1.1" 404 7097
+WARNING 2019-05-30 08:06:52,378 base 152 Not Found: /detail/5/cart
+WARNING 2019-05-30 08:06:52,379 basehttp 124 "GET /detail/5/cart HTTP/1.1" 404 7082
+INFO 2019-05-30 08:06:55,532 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-05-30 08:06:55,549 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2019-05-30 08:07:00,893 base 152 Not Found: /cart.html
+WARNING 2019-05-30 08:07:00,894 basehttp 124 "GET /cart.html HTTP/1.1" 404 7070
+WARNING 2019-05-30 08:07:05,419 base 152 Not Found: /cart.
+WARNING 2019-05-30 08:07:05,420 basehttp 124 "GET /cart. HTTP/1.1" 404 7058
+WARNING 2019-05-30 08:07:08,327 base 152 Not Found: /cart
+WARNING 2019-05-30 08:07:08,327 basehttp 124 "GET /cart HTTP/1.1" 404 7055
+INFO 2019-05-30 08:08:14,014 basehttp 124 "GET /info/ HTTP/1.1" 200 6164
+INFO 2019-05-30 08:08:14,111 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:08:14,128 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 304 0
+INFO 2019-05-30 08:08:14,404 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1290
+INFO 2019-05-30 08:08:46,805 basehttp 124 "GET /carts/ HTTP/1.1" 200 4571
+INFO 2019-05-30 08:08:46,855 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 18210
+WARNING 2019-05-30 08:08:52,964 base 152 Not Found: /cart.html
+WARNING 2019-05-30 08:08:52,966 basehttp 124 "GET /cart.html HTTP/1.1" 404 7070
+WARNING 2019-05-30 08:10:35,820 base 152 Not Found: /cart.html
+WARNING 2019-05-30 08:10:35,821 basehttp 124 "GET /cart.html HTTP/1.1" 404 7070
+WARNING 2019-05-30 08:10:40,277 base 152 Not Found: /cart.html
+WARNING 2019-05-30 08:10:40,279 basehttp 124 "GET /cart.html HTTP/1.1" 404 7070
+WARNING 2019-05-30 08:10:47,924 base 152 Not Found: /cart.html
+WARNING 2019-05-30 08:10:47,926 basehttp 124 "GET /cart.html HTTP/1.1" 404 7070
+INFO 2019-05-30 08:10:52,514 basehttp 124 "GET /carts HTTP/1.1" 301 0
+INFO 2019-05-30 08:10:52,532 basehttp 124 "GET /carts/ HTTP/1.1" 200 4571
+WARNING 2019-05-30 08:11:58,243 base 152 Not Found: /carts/cart.html
+WARNING 2019-05-30 08:11:58,243 basehttp 124 "GET /carts/cart.html HTTP/1.1" 404 7088
+WARNING 2019-05-30 08:12:09,806 base 152 Not Found: /cart.html
+WARNING 2019-05-30 08:12:09,808 basehttp 124 "GET /cart.html HTTP/1.1" 404 7070
+ERROR 2019-05-30 08:12:13,927 exception 135 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/users/views.py", line 472, in get
+    return render(request, 'user_center_info.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/templates/user_center_info.html", line 35, in top-level template code
+    <a href="{{ url('carts:carts') }}">我的购物车</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'carts' not found. 'carts' is not a valid view function or pattern name.
+ERROR 2019-05-30 08:12:14,086 basehttp 124 "GET /info/ HTTP/1.1" 500 146472
+ERROR 2019-05-30 08:12:45,849 exception 135 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/users/views.py", line 472, in get
+    return render(request, 'user_center_info.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/templates/user_center_info.html", line 35, in top-level template code
+    <a href="{{ url('carts:carts') }}">我的购物车</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'carts' not found. 'carts' is not a valid view function or pattern name.
+ERROR 2019-05-30 08:12:45,960 basehttp 124 "GET /info/ HTTP/1.1" 500 146460
+WARNING 2019-05-30 08:12:49,232 base 152 Not Found: /cart.html
+WARNING 2019-05-30 08:12:49,233 basehttp 124 "GET /cart.html HTTP/1.1" 404 7070
+ERROR 2019-05-30 08:13:45,747 exception 135 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/users/views.py", line 472, in get
+    return render(request, 'user_center_info.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/templates/user_center_info.html", line 35, in top-level template code
+    <a href="{{ url('carts:carts') }}">我的购物车</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'carts' not found. 'carts' is not a valid view function or pattern name.
+ERROR 2019-05-30 08:13:45,857 basehttp 124 "GET /info/ HTTP/1.1" 500 146460
+ERROR 2019-05-30 08:15:07,889 exception 135 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/users/views.py", line 472, in get
+    return render(request, 'user_center_info.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/templates/user_center_info.html", line 35, in top-level template code
+    <a href="{{ url('carts:carts') }}">我的购物车</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'carts' not found. 'carts' is not a valid view function or pattern name.
+ERROR 2019-05-30 08:15:08,022 basehttp 124 "GET /info/ HTTP/1.1" 500 146595
+ERROR 2019-05-30 08:15:09,014 exception 135 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/users/views.py", line 472, in get
+    return render(request, 'user_center_info.html', context=context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/backends/jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/templates/user_center_info.html", line 35, in top-level template code
+    <a href="{{ url('carts:carts') }}">我的购物车</a>
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'carts' not found. 'carts' is not a valid view function or pattern name.
+ERROR 2019-05-30 08:15:09,126 basehttp 124 "GET /info/ HTTP/1.1" 500 146595
+INFO 2019-05-30 08:17:01,311 basehttp 124 "GET /info/ HTTP/1.1" 200 6164
+INFO 2019-05-30 08:17:01,362 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 08:17:01,372 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:17:01,373 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 08:17:01,395 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:17:01,426 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:17:01,432 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:17:01,434 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:17:01,443 basehttp 124 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:17:01,451 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 08:17:02,016 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1290
+INFO 2019-05-30 08:17:04,450 basehttp 124 "GET /carts/ HTTP/1.1" 200 5313
+WARNING 2019-05-30 08:17:08,231 base 152 Not Found: /carts/index.html
+WARNING 2019-05-30 08:17:08,232 basehttp 124 "GET /carts/index.html HTTP/1.1" 404 7091
+INFO 2019-05-30 08:17:12,162 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 08:17:12,705 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 08:17:12,708 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 08:17:13,760 basehttp 124 "GET /carts/ HTTP/1.1" 200 5313
+INFO 2019-05-30 08:17:28,968 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 19427
+WARNING 2019-05-30 08:17:29,195 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 08:17:29,196 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 08:17:29,227 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-30 08:17:32,184 basehttp 124 "GET /carts/ HTTP/1.1" 200 5313
+INFO 2019-05-30 08:17:35,206 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 18897
+WARNING 2019-05-30 08:17:35,242 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 08:17:35,252 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 08:17:35,256 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 08:17:35,257 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 08:17:35,456 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 08:17:35,465 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 08:17:35,464 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 08:17:35,472 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+INFO 2019-05-30 08:17:35,501 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 08:17:35,536 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 08:17:35,547 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+WARNING 2019-05-30 08:17:35,561 base 152 Not Found: /comment/3/
+WARNING 2019-05-30 08:17:35,569 basehttp 124 "GET /comment/3/ HTTP/1.1" 404 7073
+INFO 2019-05-30 08:17:35,580 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-05-30 08:17:35,590 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-30 08:17:36,903 basehttp 124 "GET /carts/ HTTP/1.1" 200 5313
+INFO 2019-05-30 08:17:39,264 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-05-30 08:17:39,351 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+ERROR 2019-05-30 08:44:25,355 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 40, in get
+    for sku_id, count in item_dict:
+ValueError: not enough values to unpack (expected 2, got 1)
+ERROR 2019-05-30 08:44:25,467 basehttp 124 "GET /carts/ HTTP/1.1" 500 87438
+WARNING 2019-05-30 08:44:48,312 base 152 Not Found: /carts/1
+WARNING 2019-05-30 08:44:48,313 basehttp 124 "GET /carts/1 HTTP/1.1" 404 7064
+ERROR 2019-05-30 08:44:54,131 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 40, in get
+    for sku_id, count in item_dict:
+ValueError: not enough values to unpack (expected 2, got 1)
+ERROR 2019-05-30 08:44:54,210 basehttp 124 "GET /carts/ HTTP/1.1" 500 87287
+ERROR 2019-05-30 08:49:43,227 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 77, in get
+    'count': cart_dict.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 08:49:43,306 basehttp 124 "GET /carts/ HTTP/1.1" 500 88758
+ERROR 2019-05-30 08:51:32,583 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 78, in get
+    'selected': str(cart_dict.get(sku.id).get('selected')),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 08:51:32,694 basehttp 124 "GET /carts/ HTTP/1.1" 500 88766
+ERROR 2019-05-30 08:52:03,785 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 81, in get
+    'amount': str(sku.price * cart_dict.get(sku.id).get('count'))
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 08:52:03,870 basehttp 124 "GET /carts/ HTTP/1.1" 500 88747
+ERROR 2019-05-30 08:52:16,383 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 81, in get
+    'amount': str(sku.price * cart_dict.get(sku_id).get('count'))
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 08:52:16,450 basehttp 124 "GET /carts/ HTTP/1.1" 500 88747
+ERROR 2019-05-30 08:52:19,955 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 81, in get
+    'amount': str(sku.price * cart_dict.get(sku_id).get('count'))
+TypeError: can't multiply sequence by non-int of type 'decimal.Decimal'
+ERROR 2019-05-30 08:52:20,043 basehttp 124 "GET /carts/ HTTP/1.1" 500 88781
+ERROR 2019-05-30 08:53:22,168 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 81, in get
+    'amount':str(sku.price * cart_dict.get(sku.id).get('count')),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 08:53:22,243 basehttp 124 "GET /carts/ HTTP/1.1" 500 88747
+ERROR 2019-05-30 08:53:33,789 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 81, in get
+    'amount':str(sku.price * cart_dict.get(sku_id).get('count')),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 08:53:33,908 basehttp 124 "GET /carts/ HTTP/1.1" 500 88747
+ERROR 2019-05-30 08:53:36,187 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 81, in get
+    'amount':str(sku.price * cart_dict.get(sku_id).get('count')),
+TypeError: can't multiply sequence by non-int of type 'decimal.Decimal'
+ERROR 2019-05-30 08:53:36,270 basehttp 124 "GET /carts/ HTTP/1.1" 500 88781
+ERROR 2019-05-30 08:54:08,271 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 81, in get
+    'amount':str(sku.price * cart_dict.get(sku_id).get('count')),
+TypeError: can't multiply sequence by non-int of type 'decimal.Decimal'
+ERROR 2019-05-30 08:54:08,352 basehttp 124 "GET /carts/ HTTP/1.1" 500 88786
+ERROR 2019-05-30 08:54:56,865 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 77, in get
+    'count': cart_dict.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 08:54:56,944 basehttp 124 "GET /carts/ HTTP/1.1" 500 88759
+ERROR 2019-05-30 08:57:41,791 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 77, in get
+    'count': cart_dict['sku_id']['count'],
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 08:57:41,862 basehttp 124 "GET /carts/ HTTP/1.1" 500 88771
+ERROR 2019-05-30 08:57:44,347 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 77, in get
+    'count': cart_dict['sku_id']['count'],
+KeyError: 'sku_id'
+ERROR 2019-05-30 08:57:44,423 basehttp 124 "GET /carts/ HTTP/1.1" 500 88563
+INFO 2019-05-30 08:58:02,171 basehttp 124 "GET /carts/ HTTP/1.1" 200 4762
+INFO 2019-05-30 08:58:02,193 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 08:58:02,207 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 08:58:02,215 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:58:02,219 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:58:02,224 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:58:02,228 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 08:58:02,236 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 08:58:02,243 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+ERROR 2019-05-30 09:00:30,513 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 81, in get
+    'amount': str(sku.price * cart_dict[sku_id]['count']),
+TypeError: can't multiply sequence by non-int of type 'decimal.Decimal'
+ERROR 2019-05-30 09:00:30,594 basehttp 124 "GET /carts/ HTTP/1.1" 500 88751
+INFO 2019-05-30 09:00:58,106 basehttp 124 "GET /carts/ HTTP/1.1" 200 4908
+INFO 2019-05-30 09:00:58,151 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:00:58,153 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:00:58,160 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:00:58,168 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:00:58,173 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:00:58,178 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:00:58,183 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:00:58,187 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+ERROR 2019-05-30 09:01:54,291 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 81, in get
+    'amount': str(sku.price * cart_dict[sku_id]['count']),
+TypeError: can't multiply sequence by non-int of type 'decimal.Decimal'
+ERROR 2019-05-30 09:01:54,373 basehttp 124 "GET /carts/ HTTP/1.1" 500 88751
+INFO 2019-05-30 09:05:25,879 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 09:05:25,905 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:25,910 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:25,917 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:25,934 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:25,937 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:25,938 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:25,945 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:25,950 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:27,735 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 09:05:27,754 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:27,756 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:27,761 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:27,764 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:27,769 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:27,794 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:27,800 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:27,813 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:05:50,944 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 09:05:51,669 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 09:05:51,672 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 09:05:54,958 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 09:06:03,513 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 19427
+WARNING 2019-05-30 09:06:03,879 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 09:06:03,895 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 09:06:03,904 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-30 09:06:05,933 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 18897
+WARNING 2019-05-30 09:06:06,011 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 09:06:06,014 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 09:06:06,086 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 09:06:06,087 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+INFO 2019-05-30 09:06:06,469 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 09:06:06,521 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 09:06:06,552 base 152 Not Found: /comment/3/
+WARNING 2019-05-30 09:06:06,555 basehttp 124 "GET /comment/3/ HTTP/1.1" 404 7073
+WARNING 2019-05-30 09:06:06,570 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 09:06:06,582 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-05-30 09:06:06,595 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-30 09:06:07,734 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-05-30 09:06:11,988 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:06:39,762 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:06:39,797 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:39,802 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:39,808 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:39,809 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:39,810 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:39,815 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:39,816 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:39,820 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:42,322 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-05-30 09:06:42,361 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-30 09:06:46,615 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:06:55,878 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:06:55,908 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:55,911 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:55,916 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:55,917 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:55,936 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:55,938 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:55,950 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:55,953 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:57,421 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:06:57,448 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:57,450 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:57,459 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:57,461 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:57,471 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:57,478 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:57,487 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:06:57,494 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:11,267 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:11,306 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:11,308 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:11,313 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:11,316 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:11,320 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:11,331 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:11,332 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:11,335 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:12,507 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:12,529 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:12,547 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:12,554 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:12,576 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:12,576 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:12,576 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:12,608 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:12,580 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:13,559 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:13,623 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:13,627 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:13,635 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:13,637 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:13,641 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:13,643 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:13,645 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:13,647 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:14,472 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:14,513 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:14,515 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:14,517 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:14,520 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:14,525 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:14,527 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:14,529 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:14,532 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,321 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:15,368 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,376 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,386 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,389 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,400 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,410 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,412 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,418 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,885 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:15,921 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,928 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,933 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,935 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,942 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,944 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,949 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:15,954 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,239 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:16,259 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,263 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,273 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,277 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,281 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,291 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,295 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,306 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,526 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:16,549 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,553 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,556 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,557 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,558 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,560 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,566 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,570 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,836 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:16,862 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,871 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,873 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,875 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,891 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,904 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,909 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:16,910 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,148 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:17,174 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,176 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,179 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,184 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,188 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,192 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,204 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,213 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,489 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:17,526 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,532 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,534 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,540 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,542 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,547 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,552 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,554 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,808 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:17,836 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,841 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,844 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,847 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,859 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,872 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,874 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:17,880 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:18,118 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:07:18,155 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:18,158 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:18,164 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:18,168 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:18,169 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:18,171 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:18,173 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:07:18,187 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+ERROR 2019-05-30 09:07:40,087 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 89, in get
+    return render(request, '.html', context)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: .html
+ERROR 2019-05-30 09:07:40,188 basehttp 124 "GET /carts/ HTTP/1.1" 500 108250
+INFO 2019-05-30 09:08:07,016 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:08:07,038 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:07,043 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:07,046 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:07,048 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:07,050 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:07,054 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:07,061 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:07,065 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:08,275 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:08:08,300 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:08,322 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:08,325 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:08,329 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:08,328 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:08,326 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:08,337 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:08:08,347 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:10:50,908 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:10:50,953 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:10:50,958 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:10:50,967 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:10:50,970 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:10:50,974 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:10:50,980 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:10:50,986 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:10:50,990 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:16,975 basehttp 124 "GET /carts/ HTTP/1.1" 200 5195
+INFO 2019-05-30 09:12:17,031 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:17,070 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:17,072 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:17,083 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:17,125 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:17,151 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:17,155 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:17,162 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+WARNING 2019-05-30 09:12:26,362 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-30 09:12:51,648 basehttp 124 "GET /carts/ HTTP/1.1" 200 5195
+INFO 2019-05-30 09:12:51,767 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:51,798 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:51,816 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:51,840 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:51,886 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:51,898 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:51,904 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:12:51,917 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+WARNING 2019-05-30 09:12:52,713 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-30 09:13:13,874 basehttp 124 "GET /carts/ HTTP/1.1" 200 5195
+INFO 2019-05-30 09:13:13,992 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:13:13,998 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:13:13,995 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:13:14,016 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:13:14,018 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:13:14,020 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:13:14,029 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:13:14,038 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+WARNING 2019-05-30 09:13:14,322 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-30 09:16:17,642 basehttp 124 "GET /carts/ HTTP/1.1" 200 5203
+INFO 2019-05-30 09:16:17,682 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:16:17,693 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:16:17,684 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:16:17,687 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:16:17,704 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:16:17,707 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:16:17,717 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:16:17,735 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+WARNING 2019-05-30 09:16:18,021 basehttp 124 "GET /static/js/axios.min.map HTTP/1.1" 404 1661
+INFO 2019-05-30 09:17:26,388 basehttp 124 "GET /carts/ HTTP/1.1" 200 5196
+INFO 2019-05-30 09:17:26,427 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:26,428 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:26,432 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:26,435 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:26,437 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:26,439 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:26,486 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:26,488 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:29,576 basehttp 124 "GET /carts/ HTTP/1.1" 200 5196
+INFO 2019-05-30 09:17:29,608 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:29,610 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:29,614 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:29,617 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:29,622 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:29,624 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:29,625 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:29,627 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:52,361 basehttp 124 "GET /carts/ HTTP/1.1" 200 5190
+INFO 2019-05-30 09:17:52,400 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:52,401 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:52,406 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:52,414 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:52,416 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:52,420 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:52,421 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:17:52,431 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:18:31,090 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:18:31,121 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:18:31,132 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:18:31,151 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:18:31,155 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:18:31,158 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:18:31,162 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:18:31,165 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:18:31,170 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:09,727 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:19:09,755 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:09,766 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:09,767 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:09,772 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:09,786 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:09,787 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:09,796 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:13,025 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:19:13,049 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:13,073 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:13,075 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:13,076 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:13,080 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:13,091 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:13,103 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:13,141 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:14,999 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:19:15,032 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:15,034 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:15,045 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:15,047 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:15,051 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:15,052 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:15,057 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:15,065 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:16,467 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:19:16,500 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:16,502 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:16,507 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:16,509 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:16,510 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:16,512 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:16,528 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:16,560 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:55,414 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:19:55,443 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:55,448 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:55,454 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:55,455 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:55,462 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:19:55,484 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:08,374 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:21:08,406 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:08,410 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:08,412 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:08,412 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:08,414 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:08,421 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:08,446 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:08,454 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:14,546 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:21:14,588 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:14,595 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:14,604 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:14,607 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:14,610 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:14,612 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:14,622 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:14,625 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:15,456 basehttp 124 "GET /carts/ HTTP/1.1" 200 4667
+INFO 2019-05-30 09:21:15,486 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:15,489 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:15,491 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:15,505 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:15,506 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:15,508 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:15,511 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:21:15,512 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:22:33,400 basehttp 124 "GET /carts/ HTTP/1.1" 200 5194
+INFO 2019-05-30 09:22:33,431 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:22:33,442 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:22:33,445 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:22:33,449 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:22:33,451 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:22:33,463 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:22:33,477 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:22:33,483 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:57,156 basehttp 124 "GET /carts/ HTTP/1.1" 200 5197
+INFO 2019-05-30 09:23:57,188 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:57,194 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:57,204 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:57,206 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:57,209 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:57,214 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:57,218 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:57,220 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:58,542 basehttp 124 "GET /carts/ HTTP/1.1" 200 5197
+INFO 2019-05-30 09:23:58,576 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:58,581 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:58,582 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:58,583 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:58,584 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:58,585 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:58,690 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:58,704 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:59,431 basehttp 124 "GET /carts/ HTTP/1.1" 200 5197
+INFO 2019-05-30 09:23:59,535 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:59,541 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:59,543 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:59,543 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:59,547 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:59,554 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:59,575 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:23:59,576 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,134 basehttp 124 "GET /carts/ HTTP/1.1" 200 5197
+INFO 2019-05-30 09:24:00,164 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,166 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,168 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,174 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,176 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,185 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,191 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,196 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,526 basehttp 124 "GET /carts/ HTTP/1.1" 200 5197
+INFO 2019-05-30 09:24:00,551 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,558 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,559 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,562 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,563 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,568 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,574 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:00,583 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:01,342 basehttp 124 "GET /carts/ HTTP/1.1" 200 5197
+INFO 2019-05-30 09:24:01,368 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:01,374 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:01,381 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:01,383 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:01,384 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:01,406 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:01,415 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:01,416 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:02,414 basehttp 124 "GET /carts/ HTTP/1.1" 200 5197
+INFO 2019-05-30 09:24:02,458 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:02,461 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:02,469 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:02,472 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:02,474 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:02,483 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:02,487 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:02,513 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,198 basehttp 124 "GET /carts/ HTTP/1.1" 200 5197
+INFO 2019-05-30 09:24:03,239 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,242 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,244 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,246 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,246 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,248 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,264 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,270 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,949 basehttp 124 "GET /carts/ HTTP/1.1" 200 5197
+INFO 2019-05-30 09:24:03,987 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,989 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:03,999 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:04,000 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:04,002 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:04,004 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:04,014 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 09:24:04,028 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+ERROR 2019-05-30 09:28:37,249 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 80, in get
+    'count': cart_dict[sku.id]['count'],
+KeyError: 3
+ERROR 2019-05-30 09:28:37,325 basehttp 124 "GET /carts/ HTTP/1.1" 500 88677
+ERROR 2019-05-30 09:28:38,875 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 80, in get
+    'count': cart_dict[sku.id]['count'],
+KeyError: 3
+ERROR 2019-05-30 09:28:38,956 basehttp 124 "GET /carts/ HTTP/1.1" 500 88677
+ERROR 2019-05-30 09:30:29,046 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 80, in get
+    'count': cart_dict.get(sku.id).get('count'),
+KeyError: 3
+ERROR 2019-05-30 09:30:29,162 basehttp 124 "GET /carts/ HTTP/1.1" 500 88709
+INFO 2019-05-30 09:57:43,062 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 09:57:44,092 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 09:57:44,093 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+ERROR 2019-05-30 09:57:46,708 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 80, in get
+    'count': cart_dict.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 09:57:46,779 basehttp 124 "GET /carts/ HTTP/1.1" 500 88984
+ERROR 2019-05-30 10:13:49,996 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 80, in get
+    'count': cart_dict.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 10:13:50,103 basehttp 124 "GET /carts/ HTTP/1.1" 500 89119
+ERROR 2019-05-30 10:17:15,553 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 73, in get
+    'count': cart_dict.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 10:17:15,632 basehttp 124 "GET /carts/ HTTP/1.1" 500 89104
+ERROR 2019-05-30 10:22:34,866 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 68, in get
+    'count': cart_dict.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 10:22:34,968 basehttp 124 "GET /carts/ HTTP/1.1" 500 89104
+ERROR 2019-05-30 10:22:59,385 exception 135 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 68, in get
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2019-05-30 10:22:59,460 basehttp 124 "GET /carts/ HTTP/1.1" 500 86180
+INFO 2019-05-30 10:23:05,072 basehttp 124 "GET /carts/ HTTP/1.1" 200 5195
+INFO 2019-05-30 10:23:05,114 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 10:23:05,118 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 10:23:05,124 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 10:23:05,128 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 10:23:05,146 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 10:23:05,161 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 10:23:05,166 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 10:23:05,169 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 10:23:05,484 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-05-30 10:25:08,418 basehttp 124 "GET /carts/ HTTP/1.1" 200 5195
+INFO 2019-05-30 10:25:08,438 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 10:25:08,449 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 10:25:08,452 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 10:25:08,453 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 10:25:08,457 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 10:25:08,459 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 10:25:08,463 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 10:25:08,469 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:15:15,281 basehttp 124 "GET /carts/ HTTP/1.1" 200 5195
+INFO 2019-05-30 11:15:15,313 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 11:15:15,318 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 11:15:15,327 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:15:15,328 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:15:15,330 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:15:15,332 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 11:15:15,339 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:15:15,353 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:15:18,076 basehttp 124 "PUT /carts/ HTTP/1.1" 200 378
+INFO 2019-05-30 11:15:20,060 basehttp 124 "PUT /carts/ HTTP/1.1" 200 389
+WARNING 2019-05-30 11:15:21,481 basehttp 124 "PUT /carts/ HTTP/1.1" 403 18
+WARNING 2019-05-30 11:15:22,445 basehttp 124 "PUT /carts/ HTTP/1.1" 403 18
+INFO 2019-05-30 11:15:23,252 basehttp 124 "PUT /carts/ HTTP/1.1" 200 389
+INFO 2019-05-30 11:15:24,188 basehttp 124 "PUT /carts/ HTTP/1.1" 200 378
+INFO 2019-05-30 11:42:24,815 basehttp 124 "GET /carts/ HTTP/1.1" 200 5195
+INFO 2019-05-30 11:42:24,938 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:42:24,944 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 11:42:24,948 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:42:24,950 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:42:24,970 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 11:42:24,985 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 11:42:25,008 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:42:25,034 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:43:00,744 basehttp 124 "DELETE /carts/ HTTP/1.1" 200 69
+INFO 2019-05-30 11:47:56,043 basehttp 124 "GET / HTTP/1.1" 200 124901
+INFO 2019-05-30 11:47:56,104 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,111 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,113 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,117 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,121 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,127 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,155 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,162 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,179 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,180 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,252 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,255 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-30 11:47:56,269 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+WARNING 2019-05-30 11:47:57,204 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:47:57,210 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 11:47:58,447 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-30 11:47:59,377 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 11:48:00,419 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:48:00,429 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 11:48:04,764 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 19427
+WARNING 2019-05-30 11:48:05,790 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:48:05,814 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 11:48:05,819 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-30 11:48:07,755 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 18897
+WARNING 2019-05-30 11:48:07,929 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 11:48:07,933 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 11:48:07,936 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 11:48:07,953 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+INFO 2019-05-30 11:48:08,358 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+INFO 2019-05-30 11:48:08,374 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 11:48:08,400 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:48:08,402 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+WARNING 2019-05-30 11:48:08,418 base 152 Not Found: /comment/3/
+WARNING 2019-05-30 11:48:08,433 basehttp 124 "GET /comment/3/ HTTP/1.1" 404 7073
+INFO 2019-05-30 11:48:08,487 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-30 11:48:10,182 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-05-30 11:48:14,231 basehttp 124 "GET /carts/ HTTP/1.1" 200 4921
+WARNING 2019-05-30 11:48:18,681 basehttp 124 "PUT /carts/ HTTP/1.1" 403 18
+INFO 2019-05-30 11:48:20,303 basehttp 124 "PUT /carts/ HTTP/1.1" 200 378
+WARNING 2019-05-30 11:48:21,010 basehttp 124 "PUT /carts/ HTTP/1.1" 403 18
+WARNING 2019-05-30 11:49:42,241 csrf 160 Forbidden (CSRF cookie not set.): /browse_histories/
+WARNING 2019-05-30 11:49:42,244 csrf 160 Forbidden (CSRF cookie not set.): /detail/visit/115/
+WARNING 2019-05-30 11:49:42,275 basehttp 124 "POST /browse_histories/ HTTP/1.1" 403 2857
+WARNING 2019-05-30 11:49:42,276 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 403 2857
+WARNING 2019-05-30 11:49:47,170 csrf 160 Forbidden (CSRF cookie not set.): /carts/
+WARNING 2019-05-30 11:49:47,174 basehttp 124 "POST /carts/ HTTP/1.1" 403 2857
+WARNING 2019-05-30 11:49:49,085 csrf 160 Forbidden (CSRF cookie not set.): /carts/
+WARNING 2019-05-30 11:49:49,089 basehttp 124 "POST /carts/ HTTP/1.1" 403 2857
+INFO 2019-05-30 11:49:52,323 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 18897
+INFO 2019-05-30 11:49:52,354 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 11:49:52,357 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 11:49:52,374 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:49:52,379 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:49:52,390 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:49:52,392 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-05-30 11:49:52,394 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:49:52,438 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 304 0
+INFO 2019-05-30 11:49:52,464 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-30 11:49:52,479 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+WARNING 2019-05-30 11:49:52,482 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 11:49:52,483 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 11:49:52,517 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 11:49:52,520 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 11:49:52,752 csrf 160 Forbidden (CSRF cookie not set.): /browse_histories/
+WARNING 2019-05-30 11:49:52,772 basehttp 124 "POST /browse_histories/ HTTP/1.1" 403 2857
+WARNING 2019-05-30 11:49:52,779 csrf 160 Forbidden (CSRF cookie not set.): /detail/visit/115/
+INFO 2019-05-30 11:49:52,780 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 11:49:52,784 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 403 2857
+WARNING 2019-05-30 11:49:52,801 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:49:52,812 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+WARNING 2019-05-30 11:49:52,835 base 152 Not Found: /comment/3/
+WARNING 2019-05-30 11:49:52,837 basehttp 124 "GET /comment/3/ HTTP/1.1" 404 7073
+WARNING 2019-05-30 11:49:54,738 csrf 160 Forbidden (CSRF cookie not set.): /carts/
+WARNING 2019-05-30 11:49:54,741 basehttp 124 "POST /carts/ HTTP/1.1" 403 2857
+INFO 2019-05-30 11:49:58,774 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 18897
+WARNING 2019-05-30 11:49:58,842 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 11:49:58,852 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 11:49:58,857 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 11:49:58,859 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 11:49:59,037 csrf 160 Forbidden (CSRF cookie not set.): /browse_histories/
+WARNING 2019-05-30 11:49:59,044 csrf 160 Forbidden (CSRF cookie not set.): /detail/visit/115/
+WARNING 2019-05-30 11:49:59,066 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 403 2857
+WARNING 2019-05-30 11:49:59,077 basehttp 124 "POST /browse_histories/ HTTP/1.1" 403 2857
+WARNING 2019-05-30 11:49:59,116 base 152 Not Found: /comment/3/
+WARNING 2019-05-30 11:49:59,124 basehttp 124 "GET /comment/3/ HTTP/1.1" 404 7073
+WARNING 2019-05-30 11:49:59,125 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:49:59,125 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 11:49:59,126 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 11:50:00,394 csrf 160 Forbidden (CSRF cookie not set.): /carts/
+WARNING 2019-05-30 11:50:00,397 basehttp 124 "POST /carts/ HTTP/1.1" 403 2857
+WARNING 2019-05-30 11:50:05,384 base 152 Not Found: /detail/3/login.html
+WARNING 2019-05-30 11:50:05,385 basehttp 124 "GET /detail/3/login.html HTTP/1.1" 404 7100
+WARNING 2019-05-30 11:50:07,770 csrf 160 Forbidden (CSRF cookie not set.): /browse_histories/
+WARNING 2019-05-30 11:50:07,778 csrf 160 Forbidden (CSRF cookie not set.): /detail/visit/115/
+WARNING 2019-05-30 11:50:07,779 basehttp 124 "POST /browse_histories/ HTTP/1.1" 403 2857
+WARNING 2019-05-30 11:50:07,794 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 403 2857
+INFO 2019-05-30 11:50:09,714 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-05-30 11:50:11,743 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-30 11:50:12,450 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 11:50:13,434 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:50:13,439 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 11:50:29,375 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-30 11:50:30,180 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 11:50:30,904 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:50:30,909 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 11:50:40,705 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 19427
+WARNING 2019-05-30 11:50:41,208 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:50:41,209 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+INFO 2019-05-30 11:50:41,228 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-30 11:50:44,276 basehttp 124 "GET /detail/3/ HTTP/1.1" 200 18897
+WARNING 2019-05-30 11:50:44,374 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 11:50:44,385 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 11:50:44,387 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 11:50:44,388 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 11:50:44,880 base 152 Not Found: /detail/static/images/goods/goods001.jpg
+WARNING 2019-05-30 11:50:44,913 base 152 Not Found: /detail/static/images/goods/goods002.jpg
+WARNING 2019-05-30 11:50:44,914 basehttp 124 "GET /detail/static/images/goods/goods001.jpg HTTP/1.1" 404 7160
+WARNING 2019-05-30 11:50:44,919 basehttp 124 "GET /detail/static/images/goods/goods002.jpg HTTP/1.1" 404 7160
+INFO 2019-05-30 11:50:44,939 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+WARNING 2019-05-30 11:50:44,958 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 11:50:44,972 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7082
+WARNING 2019-05-30 11:50:44,986 base 152 Not Found: /comment/3/
+INFO 2019-05-30 11:50:44,988 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+WARNING 2019-05-30 11:50:45,006 basehttp 124 "GET /comment/3/ HTTP/1.1" 404 7073
+INFO 2019-05-30 11:50:45,030 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-30 11:50:59,885 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-05-30 11:52:19,625 basehttp 124 "GET /carts/ HTTP/1.1" 200 4920
+INFO 2019-05-30 12:14:25,280 basehttp 124 "GET /carts/ HTTP/1.1" 200 4920
+INFO 2019-05-30 12:14:25,335 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:14:25,353 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:14:25,358 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:14:25,379 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 12:14:25,382 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:14:25,385 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:14:25,396 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:14:25,405 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:15:23,986 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:15:27,539 basehttp 124 "PUT /carts/ HTTP/1.1" 200 377
+WARNING 2019-05-30 12:15:29,035 basehttp 124 "PUT /carts/ HTTP/1.1" 403 18
+INFO 2019-05-30 12:15:48,470 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+WARNING 2019-05-30 12:15:51,938 basehttp 124 "PUT /carts/ HTTP/1.1" 403 18
+WARNING 2019-05-30 12:15:53,855 base 152 Not Found: /carts/login.html
+WARNING 2019-05-30 12:15:53,859 basehttp 124 "GET /carts/login.html HTTP/1.1" 404 7257
+INFO 2019-05-30 12:15:55,175 basehttp 124 "GET /carts/ HTTP/1.1" 200 4920
+INFO 2019-05-30 12:16:03,239 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 12:16:04,609 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 12:16:04,612 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7248
+INFO 2019-05-30 12:16:05,725 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-05-30 12:16:07,264 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-30 12:16:09,545 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 12:16:10,655 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 12:16:10,658 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7248
+INFO 2019-05-30 12:16:18,183 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-30 12:16:20,363 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 12:16:21,512 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 12:16:21,514 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7248
+INFO 2019-05-30 12:16:23,274 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-05-30 12:16:25,726 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-30 12:16:27,986 basehttp 124 "GET / HTTP/1.1" 200 124901
+WARNING 2019-05-30 12:16:28,767 base 152 Not Found: /carts/simple/
+WARNING 2019-05-30 12:16:28,769 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 7248
+INFO 2019-05-30 12:16:33,237 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 12:18:27,381 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:19:50,510 basehttp 124 "GET /carts/ HTTP/1.1" 200 4928
+INFO 2019-05-30 12:19:50,539 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:19:50,550 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:19:50,556 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:19:50,565 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:19:50,569 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:19:50,586 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 12:19:50,610 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:19:50,629 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:20:02,837 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 51
+INFO 2019-05-30 12:20:43,870 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 12:20:43,920 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:20:43,927 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:20:43,929 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:20:43,930 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:20:43,934 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:20:43,951 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 12:20:43,960 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:20:43,968 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:20:45,800 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 63
+INFO 2019-05-30 12:20:47,066 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 51
+INFO 2019-05-30 12:20:47,977 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 63
+INFO 2019-05-30 12:20:49,014 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 51
+INFO 2019-05-30 12:20:49,863 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 63
+INFO 2019-05-30 12:20:50,661 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 51
+INFO 2019-05-30 12:20:51,507 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 63
+INFO 2019-05-30 12:20:52,509 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 51
+INFO 2019-05-30 12:20:53,327 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 63
+INFO 2019-05-30 12:20:54,098 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 51
+INFO 2019-05-30 12:21:14,288 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 12:21:14,342 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:14,344 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:14,353 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:14,354 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:14,358 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:14,372 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:14,372 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:14,399 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:17,276 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 12:21:17,294 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:17,298 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:17,305 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:17,308 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:17,320 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:17,347 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:17,374 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:17,385 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:18,955 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+ERROR 2019-05-30 12:21:19,767 exception 135 Internal Server Error: /carts/selection/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 62, in put
+    return response
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-30 12:21:20,120 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 500 89746
+ERROR 2019-05-30 12:21:20,824 exception 135 Internal Server Error: /carts/selection/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 62, in put
+    return response
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-30 12:21:21,105 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 500 89746
+ERROR 2019-05-30 12:21:21,403 exception 135 Internal Server Error: /carts/selection/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 62, in put
+    return response
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-30 12:21:21,653 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 500 89746
+ERROR 2019-05-30 12:21:22,203 exception 135 Internal Server Error: /carts/selection/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 62, in put
+    return response
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-30 12:21:22,815 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 500 89746
+ERROR 2019-05-30 12:21:22,819 exception 135 Internal Server Error: /carts/selection/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 62, in put
+    return response
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-30 12:21:23,167 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 500 89747
+ERROR 2019-05-30 12:21:23,174 exception 135 Internal Server Error: /carts/selection/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/probjects/meiduo_probject/meiduo_mall/meiduo_mall/apps/carts/views.py", line 62, in put
+    return response
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-30 12:21:23,532 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 500 89746
+INFO 2019-05-30 12:21:37,090 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 12:21:37,136 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:37,137 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:37,157 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:37,172 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:37,180 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:37,206 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:37,208 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:37,240 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 12:21:38,870 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:21:39,470 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:21:40,178 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:21:42,581 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:21:43,363 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:21:43,997 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:21:44,661 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:21:45,158 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:21:45,662 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 12:21:46,113 basehttp 124 "PUT /carts/selection/ HTTP/1.1" 200 69
+INFO 2019-05-30 13:15:30,037 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 13:15:30,107 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:15:30,108 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 13:15:30,109 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:15:30,109 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 13:15:30,110 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:15:30,111 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 13:15:30,127 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:15:30,138 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:01,821 basehttp 124 "GET /carts/ HTTP/1.1" 200 4927
+INFO 2019-05-30 13:18:01,906 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:01,907 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:01,915 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:01,940 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:01,950 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:01,964 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:01,974 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:01,987 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:08,432 basehttp 124 "GET / HTTP/1.1" 200 124656
+INFO 2019-05-30 13:18:17,249 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 293
+INFO 2019-05-30 13:18:25,281 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 293
+INFO 2019-05-30 13:18:36,457 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 293
+INFO 2019-05-30 13:18:40,169 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 293
+INFO 2019-05-30 13:18:51,846 basehttp 124 "GET / HTTP/1.1" 200 124656
+INFO 2019-05-30 13:18:51,880 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,903 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,915 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,918 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,920 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,932 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,946 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,964 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,975 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,978 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:51,987 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-30 13:18:55,910 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 293
+INFO 2019-05-30 13:19:41,489 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 293
+INFO 2019-05-31 06:48:20,212 basehttp 124 "GET / HTTP/1.1" 200 124656
+INFO 2019-05-31 06:48:20,278 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,295 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,295 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,346 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,353 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,360 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,362 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,368 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,391 basehttp 124 "GET /static/js/base.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,401 basehttp 124 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,402 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:20,862 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:22,368 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 293
+WARNING 2019-05-31 06:48:22,560 base 152 Not Found: /favicon.ico
+WARNING 2019-05-31 06:48:22,562 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 7405
+INFO 2019-05-31 06:48:27,179 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 293
+INFO 2019-05-31 06:48:29,777 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 293
+INFO 2019-05-31 06:48:35,324 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-05-31 06:48:35,799 basehttp 124 "GET / HTTP/1.1" 200 124656
+INFO 2019-05-31 06:48:36,233 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 281
+INFO 2019-05-31 06:48:39,191 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 19186
+INFO 2019-05-31 06:48:39,216 basehttp 124 "GET /static/js/list.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:39,224 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:39,233 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:39,297 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:39,747 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 281
+INFO 2019-05-31 06:48:39,755 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-31 06:48:41,502 basehttp 124 "GET /detail/4/ HTTP/1.1" 200 18653
+INFO 2019-05-31 06:48:41,524 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:41,525 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2019-05-31 06:48:42,043 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+INFO 2019-05-31 06:48:42,065 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-31 06:48:42,084 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 281
+WARNING 2019-05-31 06:48:42,096 base 152 Not Found: /comment/4/
+WARNING 2019-05-31 06:48:42,101 basehttp 124 "GET /comment/4/ HTTP/1.1" 404 7402
+INFO 2019-05-31 06:48:42,134 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-05-31 06:48:43,266 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-05-31 06:48:46,010 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 519
+INFO 2019-05-31 06:48:47,790 basehttp 124 "GET /detail/7/ HTTP/1.1" 200 18652
+INFO 2019-05-31 06:48:47,981 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 60
+INFO 2019-05-31 06:48:48,023 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 584
+INFO 2019-05-31 06:48:48,024 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 519
+WARNING 2019-05-31 06:48:48,051 base 152 Not Found: /comment/7/
+INFO 2019-05-31 06:48:48,056 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+WARNING 2019-05-31 06:48:48,060 basehttp 124 "GET /comment/7/ HTTP/1.1" 404 7402
+INFO 2019-05-31 06:48:49,068 basehttp 124 "POST /carts/ HTTP/1.1" 200 69
+INFO 2019-05-31 06:48:52,013 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 756
+INFO 2019-05-31 06:48:53,975 basehttp 124 "GET /login/ HTTP/1.1" 200 4192
+INFO 2019-05-31 06:48:55,566 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-05-31 06:48:56,062 basehttp 124 "GET / HTTP/1.1" 200 124656
+INFO 2019-05-31 06:48:56,409 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1005
+INFO 2019-05-31 06:48:57,714 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1005
+INFO 2019-05-31 06:49:11,198 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 1005
