@@ -63,6 +63,12 @@ class DetailView(View):
 
         categories = get_categories()
         # 获取当前sku的信息
+        sku = SKU.objects.get(id=sku_id)
+
+        category = sku.category
+
+        # 3.调用工具类方法 查询面包屑导航
+        breadcrumb = get_breadcrumb(category)
 
         # 调用封装的函数, 根据 sku_id 获取对应的
         # 1. 类别( sku )
@@ -74,6 +80,7 @@ class DetailView(View):
         context = {
             'categories': categories,
             'goods': data.get('goods'),
+            'breadcrumb': breadcrumb,  # 面包屑导航
             'specs': data.get('goods_specs'),
             'sku': data.get('sku')
 
